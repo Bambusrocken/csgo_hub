@@ -13,5 +13,10 @@ return new \Phalcon\Config(array(
      *
      * You can disable this behaviour if the output of your application needs to don't have a new line at end
      */
-    'printNewLine' => true
+    'printNewLine' => true,
+    'datasocket' => array(
+            'type' => 'udp',
+            'host' => 'localhost',
+            'port' => '21001'
+    )
 ));

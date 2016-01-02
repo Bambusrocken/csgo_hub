@@ -9,3 +9,10 @@
 $di->setShared('config', function () use ($config) {
     return $config;
 });
+
+$di->setShared('datasocket', function () use ($config) {
+    $maker = new Maker();
+    echo $config->datasocket->type . '://' . $config->datasocket->host . ':' . $config->datasocket->port;
+    return $maker->createServer($config->datasocket->type . '://' . $config->datasocket->host . ':' . $config->datasocket->port);
+});
+
