@@ -2,8 +2,11 @@
 
 use Phalcon\Di\FactoryDefault\Cli as CliDi;
 use Phalcon\Cli\Console as ConsoleApp;
+use Phalcon\Logger;
 use Library\Socket\Socket;
 use Library\Socket\Maker;
+
+
 
 /**
  * Read auto-loader
@@ -21,16 +24,12 @@ $config = include __DIR__ . '/config/config.php';
 $di = new CliDi();
 include __DIR__ . '/config/services.php';
 
-/**
- * Create new Socket 
- */
-$maker = new Maker();
-$socket = $maker->createClient('www.google.com:80');
 
 /**
  * Create a console application
  */
 $console = new ConsoleApp($di);
+
 
 /**
  * Process the console arguments
@@ -46,6 +45,7 @@ foreach ($argv as $k => $arg) {
         $arguments['params'][] = $arg;
     }
 }
+
 
 try {
 
@@ -68,7 +68,6 @@ try {
     }
 
 } catch (Exception $e) {
-    echo $e->getMessage() . PHP_EOL;
-    echo implode(PHP_EOL, $e->getTrace());
+    $this->logger->error($e-getMessage());
     exit(255);
 }

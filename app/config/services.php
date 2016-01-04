@@ -16,3 +16,6 @@ $di->setShared('datasocket', function () use ($config) {
     return $maker->createServer($config->datasocket->type . '://' . $config->datasocket->host . ':' . $config->datasocket->port);
 });
 
+$di->setShared('logger', function () use ($config) {
+    return new \Phalcon\Logger\Adapter\File($config->logfile);
+});

@@ -1,3 +1,37 @@
 #!/usr/bin/env php
 <?php
+
+    $prereq["php"] = (function_exists('version_compare') && version_compare(phpversion(), '5.3.1', '>='));
+    $prereq["php5.4"] = (function_exists('version_compare') && version_compare(phpversion(), '5.4', '>='));
+    $prereq["mysql"] = extension_loaded('mysql');
+    $prereq["spl"] = extension_loaded('spl');
+    $prereq["phalcon"] = extension_loaded('phalcon');
+    $prereq["sockets"] = extension_loaded("sockets");
+    $prereq["pthreads"] = extension_loaded("pthreads");
+    
+    define('GMANAGER_DIR', __DIR__);
+    define('APP_ROOT', __DIR__ . DIRECTORY_SEPARATOR);
+    
+    require_once APP_ROOT . 'vendor' . DIRECTORY_SEPARATOR . 'autoload.php';
+    require_once 'steam-condenser.php';
+    
+    echo "PHP Compatibility Test" . PHP_EOL;
+echo "-----------------------------------------------------" . PHP_EOL;
+echo "| PHP 5.3.1 or newer    -> required  -> " . ($prereq["php"] ? ("[\033[0;32m Yes \033[0m] " . phpversion()) : "[\033[0;31m No \033[0m]") . PHP_EOL;
+echo "| Standard PHP Library  -> required  -> " . ($prereq["spl"] ? "[\033[0;32m Yes \033[0m]" : "[\033[0;31m No \033[0m]") . PHP_EOL;
+echo "| MySQL                 -> required  -> " . ($prereq["mysql"] ? "[\033[0;32m Yes \033[0m]" : "[\033[0;31m No \033[0m]") . PHP_EOL;
+echo "| PHalcon               -> required  -> " . ($prereq["phalcon"] ? "[\033[0;32m Yes \033[0m]" : "[\033[0;31m No \033[0m]") . PHP_EOL;
+echo "| Sockets               -> required  -> " . ($prereq["sockets"] ? "[\033[0;32m Yes \033[0m]" : "[\033[0;31m No \033[0m]") . PHP_EOL;
+echo "| pthreads              -> required  -> " . ($prereq["pthreads"] ? "[\033[0;32m Yes \033[0m]" : "[\033[0;31m No \033[0m]") . PHP_EOL;
+echo "-----------------------------------------------------" . PHP_EOL;
+
+
+if (!$check["php5.4"]) {
+    echo "| We recommand to use PHP5.4 to get better performance !" . PHP_EOL;
+    echo '-----------------------------------------------------' . PHP_EOL;
+}
+
+//TODO: Check for php7
+
+    
     include __DIR__ . "/app/cli.php";
