@@ -1,17 +1,16 @@
 <?php
 
-use Phalcon\Di\FactoryDefault\Cli as CliDi;
-use Phalcon\Cli\Console as ConsoleApp;
-use Phalcon\Logger;
 use Library\Socket\Socket;
 use Library\Socket\Maker;
+use Library\Tools\DI;
+use Library\Logger\Logger;
 
-
+ error_reporting(E_ALL);
 
 /**
  * Read auto-loader
  */
-include __DIR__ . '/config/loader.php';
+//include __DIR__ . '/config/loader.php';
 
 /**
  * Read the configuration
@@ -21,14 +20,14 @@ $config = include __DIR__ . '/config/config.php';
 /**
  * Read the services
  */
-$di = new CliDi();
+$di = new DI();
 include __DIR__ . '/config/services.php';
-
+//$mysql=$di['db'];
 
 /**
  * Create a console application
  */
-$console = new ConsoleApp($di);
+//$console = new ConsoleApp($di);
 
 
 /**
@@ -46,13 +45,17 @@ foreach ($argv as $k => $arg) {
     }
 }
 
+    $di['logger']->log("Notice message",Logger::NOTICE);
+    //$this->logger('Warning message, 1',Logger::WARNING);
+    //$this->logger('Error message, 1',Logger::ERROR);
+    //$this->logger('Fatal message, 1',Logger::FATAL);
 
 try {
 
     /**
      * Handle
      */
-    $console->handle($arguments);
+    //$console->handle($arguments);
 
     /**
      * If configs is set to true, then we print a new line at the end of each execution
@@ -68,6 +71,6 @@ try {
     }
 
 } catch (Exception $e) {
-    $this->logger->error($e-getMessage());
+    $this->logger($e-getMessage(),Logger::NOTICE);
     exit(255);
 }

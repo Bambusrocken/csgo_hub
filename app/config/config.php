@@ -2,7 +2,7 @@
 
 return new \Phalcon\Config(array(
 
-    'version' => '1.0',
+    'version' => '0.1',
 
     /**
      * if true, then we print a new line at the end of each execution
@@ -15,7 +15,7 @@ return new \Phalcon\Config(array(
      */
     'printNewLine' => true,
     
-    'logfile' => 'app/logs/GManager.log',
+    'logfile' => dirname(__DIR__) . '/logs/GManager.log',
     
     'datasocket' => array(
             'type' => 'udp',

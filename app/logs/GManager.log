@@ -3,3 +3,49 @@
 [Mon, 04 Jan 16 14:20:08 +0100][INFO] This is an info message
 [Mon, 04 Jan 16 14:47:11 +0100][INFO] This is an info message
 [Mon, 04 Jan 16 14:47:22 +0100][INFO] This is an info message
+[Thu, 07 Jan 16 09:06:33 +0100][INFO] This is an info message
+[07.01.2016 - 13:10:21] INIT - Logfile Initiated
+[07.01.2016 - 13:10:21][WARNING] - Notice message 1
+[07.01.2016 - 13:14:58] INIT - Logfile Initiated
+[07.01.2016 - 13:14:58][NOTICE] - Notice message 1
+[Thu, 07 Jan 16 13:19:07 0] INIT - Logfile Initiated
+[Thu, 07 Jan 16 13:19:07 0][NOTICE] - Notice message 1
+[Thu, 07 Jan 16 13:19:50 +0100] INIT - Logfile Initiated
+[Thu, 07 Jan 16 13:19:50 +0100][NOTICE] - Notice message 1
+[Thu, 07 Jan 16 13:37:09 +0100] INIT - Logfile Initiated
+[Thu, 07 Jan 16 13:37:09 +0100][NOTICE] - Notice message 1
+[Thu, 07 Jan 16 13:38:22 +0100] INIT - Logfile Initiated
+[Thu, 07 Jan 16 13:38:22 +0100][NOTICE] - Notice message 1
+[Thu, 07 Jan 16 13:49:16 +0100] INIT - Logfile Initiated
+[Thu, 07 Jan 16 13:49:16 +0100][NOTICE] - Notice message 1
+[Thu, 07 Jan 16 13:50:05 +0100] INIT - Logfile Initiated
+[Thu, 07 Jan 16 13:50:05 +0100][NOTICE] - Notice message 1
+[Thu, 07 Jan 16 13:51:40 +0100] INIT - Logfile Initiated
+[Thu, 07 Jan 16 13:51:40 +0100][NOTICE] - Notice message 1
+[Thu, 07 Jan 16 13:54:11 +0100][NOTICE] - Notice message 1
+[Thu, 07 Jan 16 13:55:53 +0100][NOTICE] - Binding MysqlDB
+[Thu, 07 Jan 16 13:55:53 +0100][NOTICE] - Notice message 1
+[Thu, 07 Jan 16 13:58:12 +0100][NOTICE] - Binding MysqlDB
+[Thu, 07 Jan 16 13:58:12 +0100][NOTICE] - Notice message 1
+[Thu, 07 Jan 16 14:03:04 +0100][NOTICE] - Binding MysqlDB
+[Thu, 07 Jan 16 14:04:32 +0100][NOTICE] - Binding MysqlDB
+[Thu, 07 Jan 16 14:06:56 +0100][NOTICE] - Binding MysqlDB
+[Thu, 07 Jan 16 14:08:34 +0100][NOTICE] - Binding MysqlDB
+[Thu, 07 Jan 16 14:09:17 +0100][NOTICE] - Binding MysqlDB
+[Thu, 07 Jan 16 14:10:06 +0100][NOTICE] - Binding MysqlDB
+[Thu, 07 Jan 16 14:12:01 +0100][NOTICE] - Binding MysqlDB
+[Thu, 07 Jan 16 14:13:04 +0100][NOTICE] - Binding MysqlDB
+[Thu, 07 Jan 16 14:15:33 +0100][NOTICE] - Binding MysqlDB
+[Thu, 07 Jan 16 14:15:33 +0100][NOTICE] - Notice message
+[Thu, 07 Jan 16 14:20:37 +0100][NOTICE] - Binding MysqlDB
+[Thu, 07 Jan 16 14:21:15 +0100][NOTICE] - Binding MysqlDB
+[Thu, 07 Jan 16 14:27:47 +0100][NOTICE] - Notice message
+[Thu, 07 Jan 16 14:29:04 +0100][NOTICE] - Notice message
+[Thu, 07 Jan 16 14:30:27 +0100][NOTICE] - Binding MysqlDB
+[Thu, 07 Jan 16 14:30:27 +0100][NOTICE] - Notice message
+[Thu, 07 Jan 16 14:31:34 +0100][NOTICE] - Binding MysqlDB
+[Thu, 07 Jan 16 14:31:34 +0100][NOTICE] - Notice message
+[Thu, 07 Jan 16 14:32:02 +0100][NOTICE] - Binding MysqlDB
+[Thu, 07 Jan 16 14:33:05 +0100][NOTICE] - Binding MysqlDB
+[Thu, 07 Jan 16 14:34:04 +0100][NOTICE] - Binding MysqlDB
+[Thu, 07 Jan 16 14:41:00 +0100][NOTICE] - Binding MysqlDB
