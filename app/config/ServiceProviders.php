@@ -1,7 +1,7 @@
 <?php
 
 /* 
- * Copyright (C) 2016 andrek
+ * Copyright (C) 2016 André Karlsson <andre@sess.se>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -15,13 +15,26 @@
  *
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ * 
+ * @author Andre Karlsson <andre@sess.se>
  */
 
-namespace Library\Tools;
+namespace Config;
 
-use Library\Tools;
+use Library\Tools\Factory\DI;
+use Library\Tools\Factory\ServiceInterface;
 
-class Config extends Singleton implements \ArrayAccess, \Countable
-{
-    
+
+//http://gm.zoomlab.it/2014/structured-applications-with-pimple/
+class ServiceProviders implements ServiceInterface
+{ 
+    public function register(DI $factory){
+        $factory['config'] = function ($inj) use ($config) {
+            return $config;
+        };
+        
+        $factory['logger']=function ($inj) {
+        return new \Library\Logger\Logger($config->logfile);
+        }; 
+    }
 }

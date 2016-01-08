@@ -18,19 +18,29 @@
  * 
  * @author Andre Karlsson <andre@sess.se>
  */
+namespace Application;
+
+use Library\Tools\DI;
+
+error_reporting(E_ALL);
 
 use Library\Socket\Maker;
 use Library\Logger\Logger;
 use Library\Tools\Application\ApplicationBase;
 
 
-class Application extends ApplicationBase
+class Application extends ApplicationBase 
 {
+    private $logger;
+    
+    public function __construct($di) {
+        $logger = $di;
+    }
     /**
      * Execute the primary application 
      */
     public function execute() {
-        
+        $logger->log('Application executet', Logger::NOTICE);
     }
     
     /**

@@ -18,7 +18,7 @@
  */
 namespace Library\Logger;
 
-use Library\Tools\Singleton;
+use Library\Tools\DI;
 /**
      * Logger
      * 
@@ -26,7 +26,7 @@ use Library\Tools\Singleton;
      * 
      * @author gehaxelt
      */
-    class Logger extends Singleton 
+    class Logger 
     {
         
         /**

@@ -17,12 +17,12 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-namespace Library\Tools;
+namespace Library\Tools\Factory;
 /**
  * DI service provider interface.
  *
  */
-interface ServiceProviderInterface
+interface ServiceInterface
 {
     /**
      * Registers services on the given container.
@@ -30,7 +30,7 @@ interface ServiceProviderInterface
      * This method should only be used to configure services and parameters.
      * It should not get services.
      *
-     * @param Container $pimple A container instance
+     * @param Container $factory A container instance
      */
-    public function register(DI $warehouse);
+    public function register(DI $factory);
 }

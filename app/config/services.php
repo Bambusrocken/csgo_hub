@@ -8,6 +8,7 @@
  error_reporting(E_ALL);
  
  use Library\Logger\Logger;
+ use Application\Application;
 
 $di['config'] = function () use ($config) {
     return $config;
@@ -20,7 +21,7 @@ $di->setShared('datasocket', function () use ($config) {
 });
  * */
 
-$di['logger'] = function () use ($config) {
+$di['logger'] = function ($inj) use ($config) {
     return new \Library\Logger\Logger($config->logfile);
 };
 
@@ -31,4 +32,8 @@ $di['db'] = function () {
     $mysql->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION); 
     $di['logger']->log('Connected to Database',Logger::NOTICE);
     return $mysql;
+};
+
+$di['app'] = function ($inj) {
+    return new \Application\Application($inj['logger']);
 };

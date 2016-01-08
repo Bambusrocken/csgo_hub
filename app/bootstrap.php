@@ -4,6 +4,7 @@ use Library\Socket\Socket;
 use Library\Socket\Maker;
 use Library\Tools\DI;
 use Library\Logger\Logger;
+use Application\Application;
 
  error_reporting(E_ALL);
 
@@ -22,7 +23,8 @@ $config = include __DIR__ . '/config/config.php';
  */
 $di = new DI();
 include __DIR__ . '/config/services.php';
-//$mysql=$di['db'];
+
+$app =$di['app'];
 
 /**
  * Create a console application
@@ -49,6 +51,7 @@ foreach ($argv as $k => $arg) {
     //$this->logger('Warning message, 1',Logger::WARNING);
     //$this->logger('Error message, 1',Logger::ERROR);
     //$this->logger('Fatal message, 1',Logger::FATAL);
+    $di['app']->execute();
 
 try {
 

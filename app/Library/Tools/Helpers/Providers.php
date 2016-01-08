@@ -1,7 +1,7 @@
 <?php
 
 /* 
- * Copyright (C) 2016 andrek
+ * Copyright (C) 2016 André Karlsson <andre@sess.se>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -15,14 +15,10 @@
  *
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ * 
+ * @author Andre Karlsson <andre@sess.se>
  */
 
-namespace Library\Tools\Application;
-
-abstract class ApplicationBase {
-    
-    public abstract function execute();
-    public abstract function getName();
-    public abstract function getVersion();
-}
-?>
+return array(
+  '\\Config\\ServiceProviders',
+);

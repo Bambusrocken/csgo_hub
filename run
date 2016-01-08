@@ -38,4 +38,4 @@ if (!$prereq["php5.4"]) {
 //TODO: Check for php7
 
     
-    include __DIR__ . "/app/cli.php";
+    include __DIR__ . "/app/bootstrap.php";
