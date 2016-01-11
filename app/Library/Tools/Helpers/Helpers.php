@@ -19,7 +19,7 @@
  * @author Andre Karlsson <andre@sess.se>
  */
 
-namespace Library\Helpers;
+namespace Library\Tools\Helpers;
 
 use Library\Tools\Factory\DI;
 

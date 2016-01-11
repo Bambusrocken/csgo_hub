@@ -20,10 +20,10 @@
  */
 namespace Application;
 
-use Library\Tools\DI;
-
 error_reporting(E_ALL);
+include_once APP_ROOT . 'app' . DIRECTORY_SEPARATOR . 'Library'. DIRECTORY_SEPARATOR . 'Tools'. DIRECTORY_SEPARATOR . 'Helpers'. DIRECTORY_SEPARATOR . 'Helpers.php';
 
+use Library\Tools\Factory\DI;
 use Library\Socket\Maker;
 use Library\Logger\Logger;
 use Library\Tools\Application\ApplicationBase;
@@ -33,8 +33,8 @@ class Application extends ApplicationBase
 {
     private $logger;
     
-    public function __construct($di) {
-        $logger = $di;
+    public function __construct() {
+        app('logger')->log("Notice message",Logger::NOTICE);
     }
     /**
      * Execute the primary application 

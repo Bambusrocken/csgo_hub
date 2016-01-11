@@ -2,9 +2,11 @@
 
 use Library\Socket\Socket;
 use Library\Socket\Maker;
-use Library\Tools\DI;
+use Library\Tools\Factory\DI;
 use Library\Logger\Logger;
 use Application\Application;
+
+include_once __DIR__ . '/Library/Tools/Helpers/Helpers.php';
 
  error_reporting(E_ALL);
 

@@ -24,8 +24,6 @@ namespace Config;
 use Library\Tools\Factory\DI;
 use Library\Tools\Factory\ServiceInterface;
 
-
-//http://gm.zoomlab.it/2014/structured-applications-with-pimple/
 class ServiceProviders implements ServiceInterface
 { 
     public function register(DI $factory){
