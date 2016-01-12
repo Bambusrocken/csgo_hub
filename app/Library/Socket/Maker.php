@@ -23,6 +23,7 @@ namespace Library\Socket;
 
 use \InvalidArgumentException;
 
+//TODO Create Logical Consturctor!
 class Maker
 {
     /**
@@ -266,5 +267,18 @@ class Maker
             throw new InvalidArgumentException('Invalid address scheme given');
         }
         return $socket;
+    }
+    //----HELPERS Below
+    
+    /**
+     * Get up to $length bytes from socket
+     *
+     * @param int    $mtu maximum length to read
+     * @param int    $flags
+     * @return array
+     * 
+     */
+    public function recvFrom($mtu=1500,$flags=0){
+        return $socket->recvfrom($mtu,$flags,1000);
     }
 }

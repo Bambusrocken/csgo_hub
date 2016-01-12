@@ -280,9 +280,9 @@ class Socket
      * @see self::recvFrom() if your socket is not connect()ed
      * @uses socket_recv()
      */
-    public function recv($length, $flags)
+    public function recv($mtu=1500, $flags=0)
     {
-        $ret = @socket_recv($this->resource, $buffer, $length, $flags);
+        $ret = @socket_recv($this->resource, $buffer, $mtu, $flags);
         if ($ret === false) {
             throw Exception::createFromSocketResource($this->resource);
         }
@@ -295,19 +295,20 @@ class Socket
      * @param int    $length maximum length to read
      * @param int    $flags
      * @param string $remote reference will be filled with remote/peer address/path
-     * @return string
+     * @return array
      * @throws Exception on error
      * @see self::recv() if your socket is connect()ed
      * @uses socket_recvfrom()
      */
-    public function recvFrom($length, $flags, &$remote)
+    public function recvFrom($mtu=1500, $flags=0,$waitus=0/*, &$remote*/)
     {
-        $ret = @socket_recvfrom($this->resource, $buffer, $length, $flags, $address, $port);
+        $ret = @socket_recvfrom($this->resource, $buffer, $mtu, $flags, $address, $port);
         if ($ret === false) {
+            usleep($waitus);
             throw Exception::createFromSocketResource($this->resource);
         }
         $remote = $this->formatAddress($address, $port);
-        return $buffer;
+        return array($buffer,$remote);
     }
 
     /**

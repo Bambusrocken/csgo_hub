@@ -23,17 +23,11 @@ return new \Phalcon\Config(array(
             'port' => '21001'
     ),
     
-    'queueDB' => array(
+    'db' => array(
         'adapter' => 'Mysql',
         'host' => 'localhost',
-        'username' => 'queue',
+        'user' => 'queue',
         'password' => 'queue',
-        'dbname' => 'queue',
-        "options" => array(
-            \PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES 'UTF8'",
-            \PDO::ATTR_CASE => \PDO::CASE_LOWER,
-            \PDO::MYSQL_ATTR_USE_BUFFERED_QUERY => true,
-            \PDO::ATTR_PERSISTENT => true
-        )
+        'dbname' => 'queue'
     )
 ));

@@ -7,12 +7,13 @@
  */
  error_reporting(E_ALL);
  
- use Library\Logger\Logger;
- use Application\Application;
+use Phalcon\Logger\Adapter\File as LoggerFile;
+use Phalcon\Db\Adapter\Pdo\Mysql as PdoMysql;
+use Library\Socket\Maker as UDSPSocket;
 
-$di['config'] = function () use ($config) {
+$di->setshared('config', function () use ($config) {
     return $config;
-};
+});
 /*
 $di->setShared('datasocket', function () use ($config) {
     $maker = new Maker();
@@ -21,19 +22,23 @@ $di->setShared('datasocket', function () use ($config) {
 });
  * */
 
-$di['logger'] = function ($inj) use ($config) {
-    return new \Library\Logger\Logger($config->logfile);
-};
+$di->setshared('logger', function () use ($config) {
+    return new LoggerFile($config->logfile);
+});
 
-$di['logger']->log('Binding MysqlDB',Logger::NOTICE);
 
-$di['db'] = function () {
-    $mysql = new PDO("mysql:host=localhost;dbname=queue",'queue','queue');
-    $mysql->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION); 
-    $di['logger']->log('Connected to Database',Logger::NOTICE);
-    return $mysql;
-};
+$di->set("db", function () use ($config) {
+    return new PdoMysql(
+        array(
+            "host"     => $config->db->host,
+            "username" => $config->db->user,
+            "password" => $config->db->password,
+            "dbname"   => $config->db->dbname
+        )
+    );
+});
 
-$di['app'] = function ($inj) {
-    return new \Application\Application($inj['logger']);
-};
+$di->set("udpsocket", function () use ($config) {
+    $maker = new UDSPSocket();
+    return $maker->createServer($config->datasocket->type.'://'.$config->datasocket->host.':'.$config->datasocket->port);
+});
