@@ -19,7 +19,7 @@ return new \Phalcon\Config(array(
     
     'datasocket' => array(
             'type' => 'udp',
-            'host' => 'localhost',
+            'host' => '192.168.101.214',
             'port' => '21001'
     ),
     
