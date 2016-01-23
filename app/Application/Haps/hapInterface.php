@@ -1,7 +1,7 @@
 <?php
 
-/* 
- * Copyright (C) 2016 André Karlsson <andre@sess.se>
+/*
+ * Copyright (C) 2016 andrek
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -15,10 +15,13 @@
  *
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
- * 
- * @author Andre Karlsson <andre@sess.se>
  */
+namespace Application\Haps;
 
-return array(
-  '\\Config\\ServiceProviders',
-);
+/**
+ *
+ * @author andrek
+ */
+interface hapInterface {
+    //put your code here
+}

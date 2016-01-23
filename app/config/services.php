@@ -10,17 +10,14 @@
 use Phalcon\Logger\Adapter\File as LoggerFile;
 use Phalcon\Db\Adapter\Pdo\Mysql as PdoMysql;
 use Library\Socket\Maker as UDSPSocket;
+use Library\Tools\Rcon\Rcon;
 
 $di->setshared('config', function () use ($config) {
     return $config;
 });
-/*
-$di->setShared('datasocket', function () use ($config) {
-    $maker = new Maker();
-    echo $config->datasocket->type . '://' . $config->datasocket->host . ':' . $config->datasocket->port;
-    return $maker->createServer($config->datasocket->type . '://' . $config->datasocket->host . ':' . $config->datasocket->port);
+$di->setshared('regex', function () use ($regex) {
+    return $regex;
 });
- * */
 
 $di->setshared('logger', function () use ($config) {
     return new LoggerFile($config->logfile);
@@ -42,3 +39,12 @@ $di->set("udpsocket", function () use ($config) {
     $maker = new UDSPSocket();
     return $maker->createServer($config->datasocket->type.'://'.$config->datasocket->host.':'.$config->datasocket->port);
 });
+$di->setshared("rcon", function ()  {
+    return new Rcon();
+});
+
+foreach($config->haps as $hapclass) {
+    $di->set($hapclass, function ()  {
+        return new $hapclass;
+    });
+}

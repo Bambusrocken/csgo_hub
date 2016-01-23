@@ -29,5 +29,16 @@ return new \Phalcon\Config(array(
         'user' => 'queue',
         'password' => 'queue',
         'dbname' => 'queue'
+    ),
+    
+    'haps' => array(
+        'attackHap',
+        'killHap',
+        'nadesHap',
+        'playerActionHap',
+        'playerEnterHap',
+        'playerJoinHap',
+        'suicideHap',
+        'wordldHap'
     )
 ));

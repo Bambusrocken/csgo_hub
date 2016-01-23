@@ -21,43 +21,42 @@
 namespace Application;
 
 error_reporting(E_ALL);
-include_once APP_ROOT . 'app' . DIRECTORY_SEPARATOR . 'Library'. DIRECTORY_SEPARATOR . 'Tools'. DIRECTORY_SEPARATOR . 'Helpers'. DIRECTORY_SEPARATOR . 'Helpers.php';
 
-use Library\Tools\Factory\DI;
-use Library\Socket\Maker;
-use Library\Logger\Logger;
+use Phalcon\Di;
 use Library\Tools\Application\ApplicationBase;
+use Library\Tools\Rcon\Rcon;
 
 
 class Application extends ApplicationBase 
 {
-    private $logger;
     
-    public function __construct() {
-        app('logger')->log("Notice message",Logger::NOTICE);
+ 
+    //Moved to Abstract class pontare
+    /*
+    public function __construct(\Phalcon\DiInterface $dependencyInjector = null) {
+       parent::__construct($dependencyInjector);
     }
-    /**
-     * Execute the primary application 
-     */
-    public function execute() {
-        $logger->log('Application executet', Logger::NOTICE);
-    }
+    */
     
-    /**
-     * Return friendly name of Application
-     * 
-     * @return string Name and version of application
-     */
-    public function getName() {
+    public function execute(){
         
-    }
-    
-    /**
-     * Return the version only
-     * 
-     * @return string Version of main application only
-     */
-    public function getVersion() {
-        
+        $logdata='';
+        //Infinitive loop for now
+        $this->di['rcon']->authenticate('192.168.110.25',27015,'qwerty1234!');
+        $this->di['rcon']->send('mp_restartgame 1');
+        while(true) {
+            
+            $logdata=$this->di['udpsocket']->recvFrom();
+            $data=$logdata[0];
+            $ip=$logdata[1];
+            
+            if (!empty($data)) {
+               $happening=  rtrim(substr($data,5));
+               echo $happening . ':' . $ip . PHP_EOL;
+            }
+            
+            $data=FALSE;
+            $ip=FALSE;
+        }
     }
 }

@@ -17,9 +17,11 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-namespace Library\Tools\Helpers;
+namespace Library\Tools\Application;
 
-trait happeningHelper 
+interface ApplicationInterface
 {
-    
+    public function execute();
+    public function getName();
+    public function getVersion();
 }

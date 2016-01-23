@@ -281,4 +281,11 @@ class Maker
     public function recvFrom($mtu=1500,$flags=0){
         return $socket->recvfrom($mtu,$flags,1000);
     }
+    public function read($mtu=1500,$flags=PHP_BINARY_READ){
+        return $socket->read($mtu,$flags,1000);
+    }
+    public function accept(){
+        $socket->accept();
+        $socket->write('Welcome');
+    }
 }

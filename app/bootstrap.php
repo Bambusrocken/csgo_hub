@@ -16,6 +16,12 @@ include __DIR__ . '/config/loader.php';
  * Read the configuration
  */
 $config = include __DIR__ . '/config/config.php';
+$regex = include __DIR__ . '/config/regex.php';
+
+/**
+ * Read Regex for Game Haps
+ */
+$regexes = include __DIR__ . '/config/regex.php';
 
 /**
  * Read the services
@@ -26,10 +32,15 @@ include __DIR__ . '/config/services.php';
 $logger=$di['logger'];
 $udpsocket=$di['udpsocket'];
 
-while(true){
+$app=new Application($di);
+
+/*while(true){
     $buffarray = $udpsocket->recvFrom();
+    $di['logger']->info($buffarray[0].' : '.$buffarray[1]);
     echo $buffarray[0].' : '.$buffarray[1].PHP_EOL;
-}
+}*/
+
+$app->execute();
 
 $logger->info("INFO");
 

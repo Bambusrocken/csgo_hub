@@ -17,9 +17,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-namespace Library\Tools\Helpers;
-
-trait happeningHelper 
+class hapWatcher
 {
     
 }

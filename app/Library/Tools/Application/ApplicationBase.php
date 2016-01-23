@@ -19,10 +19,50 @@
 
 namespace Library\Tools\Application;
 
-abstract class ApplicationBase {
+use Phalcon\DI\InjectionAwareInterface;
+
+abstract class ApplicationBase implements ApplicationInterface, InjectionAwareInterface  {
     
+    protected $di;
+    protected $logger;
+    
+    public function __construct(\Phalcon\DiInterface $dependencyInjector = null) {
+        $this->setDI($dependencyInjector);
+        $this->di['logger']->info('Application Loaded!');
+    }
+    
+    /**
+     * Execute the primary application ß
+     */
     public abstract function execute();
-    public abstract function getName();
-    public abstract function getVersion();
+    
+    /**
+     * Return friendly name of Application
+     * 
+     * @return string Name and version of application
+     */
+    public function getName() {
+        
+    }
+    
+    /**
+     * Return the version only
+     * 
+     * @return string Version of main application only
+     */
+    public function getVersion() {
+        
+    }
+    
+    public function setDI(\Phalcon\DiInterface $dependencyInjector)
+    {
+        $this->di = $dependencyInjector;
+    }
+
+    public function getDI()
+    {
+        return $this->di;
+    }
+
 }
 ?>
