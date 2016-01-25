@@ -31,6 +31,7 @@ class Application extends ApplicationBase
 {
     
  
+    private $gameWatcher;
     //Moved to Abstract class pontare
     /*
     public function __construct(\Phalcon\DiInterface $dependencyInjector = null) {
@@ -44,6 +45,12 @@ class Application extends ApplicationBase
         //Infinitive loop for now
         $this->di['rcon']->authenticate('192.168.110.25',27015,'qwerty1234!');
         $this->di['rcon']->send('mp_restartgame 1');
+        
+        //$gameWatcher=$this->di['gameWatcher'];
+        $hapWatcher=$this->di['hapWatcher'];
+        
+        $timeCursor = microtime(true);
+        
         while(true) {
             
             $logdata=$this->di['udpsocket']->recvFrom();
@@ -53,7 +60,18 @@ class Application extends ApplicationBase
             if (!empty($data)) {
                $happening=  rtrim(substr($data,5));
                echo $happening . ':' . $ip . PHP_EOL;
+               //echo var_dump($this->di);
+               echo var_dump($hapWatcher->decodeGameHap($happening));
             }
+            
+            //Extremely crude way of running timed tasks! Need method executor queue!!!
+           /* usleep(50000);
+            $currentTime = microtime(true);
+            
+            if ($timeCursor + 2 <= $currentTime) {
+                $timeCursor = $currentTime;
+                $this->di['gameWatcher']->status();
+            }*/
             
             $data=FALSE;
             $ip=FALSE;

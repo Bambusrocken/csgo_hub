@@ -43,7 +43,6 @@ abstract class RconProvider extends Injectable implements RconInterface
      */
     public function __construct() {
         $this->di=$this->getDI();
-        //$this->logger=$this->di['logger'];
         $this->di['logger']->info("Rcon loaded");
     }
     

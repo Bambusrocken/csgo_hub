@@ -22,6 +22,13 @@
  *
  * @author andrek
  */
-class killHap {
-    //put your code here
-}
+
+use Application\Haps\hapProvider;
+
+class killHap extends hapProvider
+{ 
+    public function generateHap() {
+        return new \ArrayObject($this->hapInfo); 
+    }
+            
+} 

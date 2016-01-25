@@ -17,7 +17,30 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-class hapWatcher
+namespace Application\Overwatch;
+
+use Phalcon\Di\Injectable;
+
+class hapWatcher extends Injectable
 {
+    private $di;
+    private $hapEvents;
     
+    public function __construct() {
+        $this->di=$this->getDI();
+        echo 'hapWatcher going Live' . PHP_EOL;
+        //echo array_keys(get_object_vars($this->di['regex']->haps));
+        $this->hapEvents =  array_keys(get_object_vars($this->di['regex']->haps));
+    }
+    
+    public function decodeGameHap($message) {
+        foreach ($this->hapEvents as $hap ) {
+            //echo $hap . PHP_EOL;
+            if ($this->di[$hap]->compare($message)) {
+                return $this->di[$hap]->generateHap();
+            }
+        }
+        
+        return null;
+    }
 }

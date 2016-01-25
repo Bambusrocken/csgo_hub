@@ -32,7 +32,7 @@ return new \Phalcon\Config(array(
      * (Example)
      * 
      * array(
-     *  0	=>	"DR_death<12><BOT><TERRORIST>" killed "tHe_slayer<2><STEAM_1:0:1782031><CT>" with "galilar"
+     *  0	=>	"DR_death<12><BOT><TERRORIST>" killed "tHe_slayer<2><STEAM_1:0:1782031><CT>" with "ak47"
      *  a_name	=>	DR_death
      *  1	=>	DR_death
      *  a_cid	=>	12
@@ -49,22 +49,23 @@ return new \Phalcon\Config(array(
      *  7	=>	STEAM_1:0:1782031
      *  v_team	=>	CT
      *  8	=>	CT
-     *  weapon	=>	galilar
-     *  9	=>	galilar
+     *  weapon	=>	ak47
+     *  9	=>	ak47
      *  properties	=>	
      *  10	=>	
      *  )
      * 
      */
-    
-    'playerActionHap' => '/\"(?P<name>.+)<(?P<cid>\d+)><(?P<guid>.+)><(?P<team>.*)>" triggered "(?P<event_name>\S+)"(?P<properties>.*)/',
-    'attackHap' => '/\"(?P<a_name>.+)<(?P<a_cid>\d+)><(?P<a_guid>.+)><(?P<a_team>.*)>" \[(?P<a_pos_x>.+) (?P<a_pos_y>.+) (?P<a_pos_z>.+)\] attacked "(?P<v_name>.+)<(?P<v_cid>\d+)><(?P<v_guid>.+)><(?P<v_team>.*)>" \[(?P<v_pos_x>.+) (?P<v_pos_y>.+) (?P<v_pos_z>.+)\] with "(?P<weapon>\S*)"(?P<properties>.*)/',
-    'killHap' => '/\"(?P<a_name>.+)<(?P<a_cid>\d+)><(?P<a_guid>.+)><(?P<a_team>.*)>" killed "(?P<v_name>.+)<(?P<v_cid>\d+)><(?P<v_guid>.+)><(?P<v_team>.*)>" with "(?P<weapon>\S*)"(?P<properties>.*)/',
-    'suicideHap' => '/\"(?P<name>.+)<(?P<cid>\d+)><(?P<guid>.+)><(?P<team>.*)>\" committed suicide with \"(?P<weapon>\S*)\"/',
-    'worldHap' => '/World triggered "(?P<event_name>\S*)"(?P<properties>.*)/',
-    'playerJoinHap' => '/\"(?P<name>.+)<(?P<cid>\d+)><(?P<guid>.+)><(?P<old_team>\S+)>" joined team "(?P<new_team>\S+)"/',
-    'playerEnterHap' => '/\"(?P<name>.+)<(?P<cid>\d+)><(?P<guid>.+)><(?P<team>.*)>" entered the game/',
-    /*This one (nades) are not documented on HL_Log_Standard site at Valve!!*/
-    'nadesHap' => '/\"(?P<name>.+)<(?P<cid>\d+)><(?P<guid>.+)><(?P<team>.*)>" threw (?P<nade>\S+)\[(?P<pos_x>.+) (?P<pos_y>.+) (?P<pos_z>.+)\]/',
-    
+    'haps' => array(
+        'playerActionHap' => '/\"(?P<name>.+)<(?P<cid>\d+)><(?P<guid>.+)><(?P<team>.*)>" triggered "(?P<event_name>\S+)"(?P<properties>.*)/',
+        'attackHap' => '/\"(?P<a_name>.+)<(?P<a_cid>\d+)><(?P<a_guid>.+)><(?P<a_team>.*)>" \[(?P<a_pos_x>.+) (?P<a_pos_y>.+) (?P<a_pos_z>.+)\] attacked "(?P<v_name>.+)<(?P<v_cid>\d+)><(?P<v_guid>.+)><(?P<v_team>.*)>" \[(?P<v_pos_x>.+) (?P<v_pos_y>.+) (?P<v_pos_z>.+)\] with "(?P<weapon>\S*)"(?P<properties>.*)/',
+        'killHap' => '/\"(?P<a_name>.+)<(?P<a_cid>\d+)><(?P<a_guid>.+)><(?P<a_team>.*)>" \[(?P<a_pos_x>.+) (?P<a_pos_y>.+) (?P<a_pos_z>.+)\] killed "(?P<v_name>.+)<(?P<v_cid>\d+)><(?P<v_guid>.+)><(?P<v_team>.*)>" \[(?P<v_pos_x>.+) (?P<v_pos_y>.+) (?P<v_pos_z>.+)\] with "(?P<weapon>\S*)"(?P<properties>.*)/',
+        'assistHap' => '/\"(?P<a_name>.+)<(?P<a_cid>\d+)><(?P<a_guid>.+)><(?P<a_team>.*)>" assisted killing "(?P<v_name>.+)<(?P<v_cid>\d+)><(?P<v_guid>.+)><(?P<v_team>.*)>"/',
+        'suicideHap' => '/\"(?P<name>.+)<(?P<cid>\d+)><(?P<guid>.+)><(?P<team>.*)>\" committed suicide with \"(?P<weapon>\S*)\"/',
+        'worldHap' => '/World triggered "(?P<event_name>\S*)"(?P<properties>.*)/',
+        'playerJoinHap' => '/\"(?P<name>.+)<(?P<cid>\d+)><(?P<guid>.+)><(?P<old_team>\S+)>" joined team "(?P<new_team>\S+)"/',
+        'playerEnterHap' => '/\"(?P<name>.+)<(?P<cid>\d+)><(?P<guid>.+)><(?P<team>.*)>" entered the game/',
+        /*This one (nades) are not documented on HL_Log_Standard site at Valve!!*/
+        'nadesHap' => '/\"(?P<name>.+)<(?P<cid>\d+)><(?P<guid>.+)><(?P<team>.*)>" threw (?P<nade>\S+) \[(?P<pos_x>.+) (?P<pos_y>.+) (?P<pos_z>.+)\]/'
+    )
 ));

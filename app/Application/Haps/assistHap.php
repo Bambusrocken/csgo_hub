@@ -17,15 +17,15 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-
-use Application\Haps\hapProvider;
-
 /**
- * Description of attackHap
+ * Description of killHapProvider
  *
  * @author andrek
  */
-class attackHap extends hapProvider
+
+use Application\Haps\hapProvider;
+
+class assistHap extends hapProvider
 { 
     public function generateHap() {
         return new \ArrayObject($this->hapInfo); 

@@ -22,6 +22,13 @@
  *
  * @author andrek
  */
-class nadesHapProvider {
-    //put your code here
-}
+
+use Application\Haps\hapProvider;
+
+class nadesHap extends hapProvider
+{ 
+    public function generateHap() {
+        return new \ArrayObject($this->hapInfo); 
+    }
+            
+} 

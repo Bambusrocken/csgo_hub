@@ -32,35 +32,36 @@ abstract class hapProvider extends Injectable{
     protected $hapEvent;
     //protected $h_Option;
     
-    public $userId = "";        //Attacker UserID
-    public $userName = "";      //Attacker Username
-    public $userTeam = "";      //Atacker Team
-    public $userSteamid = "";   //Attacker SteamID
-    public $a_pos_x  = 0;       //Attacker Position on map X-Coordinate
-    public $a_pos_x  = 0;       //Attacker Position on map Y-Coordinate
-    public $a_pos_x  = 0;       //Attacker Position on map z-Coordinate
-    public $v_user_id = "";     //Victim UserID, user that recives the action  
-    public $v_user_name = "";   //Victim UserName, user that recives the action
-    public $v_user_team = "";   //Victim User team, user that recives the action
-    public $v_user_steamid = "";//Victim User steamId, user that recives the action
-    public $v_pos_x = 0;        //Victim Position on map X-Coordinate
-    public $v_pos_y = 0;        //Victim Position on map Y-Coordinate
-    public $v_pos_z = 0;        //Victim Position on map Z-Coordinate
-    public $weapon;             //Weapon used for the Hap
-    public $headshot;           //Was action a headshot?
-    public $team;               //What team is this?
-    public $team_win;           //Did that team win or lose?
-    public $type;               //How did they win or lose?
-    public $score;              //Score for team (or player?)
-    public $players;            //Team Members
+    /*protected $a_user_id;       //Attacker UserID
+    protected $a_user_name;     //Attacker Username
+    protected $a_user_team;     //Atacker Team
+    protected $a_user_steamid;   //Attacker SteamID
+    protected $a_pos_x;       //Attacker Position on map X-Coordinate
+    protected $a_pos_x;       //Attacker Position on map Y-Coordinate
+    protected $a_pos_x;       //Attacker Position on map z-Coordinate
+    protected $v_user_id;     //Victim UserID, user that recives the action  
+    protected $v_user_name;   //Victim UserName, user that recives the action
+    protected $v_user_team;   //Victim User team, user that recives the action
+    protected $v_user_steamid;//Victim User steamId, user that recives the action
+    protected $v_pos_x;        //Victim Position on map X-Coordinate
+    protected $v_pos_y;        //Victim Position on map Y-Coordinate
+    protected $v_pos_z;        //Victim Position on map Z-Coordinate
+    protected $weapon;             //Weapon used for the Hap
+    protected $headshot;           //Was action a headshot?
+    protected $team;               //What team is this?
+    protected $team_win;           //Did that team win or lose?
+    protected $type;               //How did they win or lose?
+    protected $score;              //Score for team (or player?)
+    protected $players;            //Team Members*/
     
-    protected function __construct()
-    {   $this->di=getDi();
-        $this->regex=$this->di['regex'][get_called_class()];
+    public function __construct() {    
+        $this->di=$this->getDI();
+        $this->regex=$this->di['regex']->haps->{get_called_class()};
+        echo "Create Happening for ". get_called_class() . PHP_EOL;
+        $this->di['logger']->info("Create Happening for ". get_called_class());
     }
     
-    public function compare($hapInfo_Raw)
-    {
+    public function compare($hapInfo_Raw) {
         if (preg_match($this->regex,$hapInfo_Raw,$found)){
             $this->hapInfo = $found;
             return TRUE;
@@ -91,5 +92,5 @@ abstract class hapProvider extends Injectable{
     }
     
     //Move to the interface??
-    abstract function action();
+    abstract function generateHap();
 }

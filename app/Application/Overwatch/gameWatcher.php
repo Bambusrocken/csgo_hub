@@ -16,5 +16,45 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
+namespace Application\Overwatch;
 
-//Future Class for Controlling full Games!
+use Phalcon\Di\Injectable;
+use Phalcon\Mvc\Model\Query;
+
+
+class gameWatcher extends Injectable
+{
+    private $active_games;
+    private $di;
+    //private $game_trap(array('192.168.110.25:27015' => ''))
+    
+    public function __construct() {
+        $this->di=$this->getDI();
+        echo "gameWatcher going Live" . PHP_EOL;
+        $this->di['logger']->info("gameWatcher going Live");
+
+    }
+    
+    public function status() {
+        
+        $this->di['logger']->debug('Trying to find new games from the Database');
+        $query = $this->di['modelsManager']->createQuery("SELECT m.team_a_name, m.team_b_name, m.id,ta.name,tb.name, s.id,s.ip,s.rcon FROM matchs AS m, servers AS s, teams as ta, teams as tb WHERE m.auto_start=1 AND m.team_a_name=ta.name AND m.team_b_name=tb.name AND m.server_id=s.id");
+        $result = $query->execute();
+        echo 'SQL_DUMP' . PHP_EOL;
+        
+        foreach ($result as $row) {
+            echo var_dump($row);
+        }
+        
+        
+    }
+    
+    public function getMatch($ip) {
+        if (@$this->matchs[$ip]) {
+            return $this->matchs[$ip];
+        } else {
+            return null;
+        }
+    }
+    
+}

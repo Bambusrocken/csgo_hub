@@ -22,6 +22,14 @@ johannes<?php
  *
  * @author andrek
  */
-class playerActionHap {
-    //put your code here
-}
+//namespace Application\Haps;
+
+use Application\Haps\hapProvider;
+
+class playerActionHap extends hapProvider
+{ 
+    public function generateHap() {
+        return ($this->hapInfo); 
+    }
+            
+} 

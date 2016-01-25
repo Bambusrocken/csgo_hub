@@ -34,8 +34,7 @@ if (!$prereq["php5.4"]) {
     echo '-----------------------------------------------------' . PHP_EOL;
 }
 
-
-//TODO: Check for php7
+//TODO: Check for php7?
 
     
     include __DIR__ . "/app/bootstrap.php";

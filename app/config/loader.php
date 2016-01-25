@@ -4,7 +4,8 @@ $loader = new \Phalcon\Loader();
 $loader->registerDirs(
     array(
         __DIR__ . '/../tasks',
-        __DIR__ . '/../models'
+        __DIR__ . '/../models',
+        __DIR__ . '/../Application/Haps'
     )
 );
 $loader->registerNamespaces(array(

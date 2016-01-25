@@ -22,6 +22,12 @@
  *
  * @author andrek
  */
-class playerJoinHap {
-    //put your code here
-}
+use Application\Haps\hapProvider;
+
+class playerJoinHap extends hapProvider
+{ 
+    public function generateHap() {
+        return new \ArrayObject($this->hapInfo); 
+    }
+            
+} 

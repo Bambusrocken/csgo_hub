@@ -24,13 +24,14 @@ return new \Phalcon\Config(array(
     ),
     
     'db' => array(
-        'adapter' => 'Mysql',
-        'host' => 'localhost',
-        'user' => 'queue',
-        'password' => 'queue',
-        'dbname' => 'queue'
+        'adapter'     => 'Mysql',
+        'host'        => '192.168.101.214',
+        'username'    => 'ebotv3',
+        'password'    => 'ebotv3',
+        'dbname'      => 'ebotv3',
+        'charset'     => 'utf8',
     ),
-    
+    //TDOD: Data already in regex conf use that instead
     'haps' => array(
         'attackHap',
         'killHap',

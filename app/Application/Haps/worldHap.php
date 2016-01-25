@@ -22,6 +22,13 @@
  *
  * @author andrek
  */
-class worldHap {
-    //put your code here
-}
+
+use Application\Haps\hapProvider;
+
+class worldHap extends hapProvider
+{ 
+    public function generateHap() {
+        return new \ArrayObject($this->hapInfo); 
+    }
+            
+} 

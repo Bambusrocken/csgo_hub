@@ -17,18 +17,11 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-
-use Application\Haps\hapProvider;
-
 /**
- * Description of attackHap
+ * Description of overWatcher
  *
  * @author andrek
  */
-class attackHap extends hapProvider
-{ 
-    public function generateHap() {
-        return new \ArrayObject($this->hapInfo); 
-    }
-            
-} 
+class overWatcher {
+    //put your code here
+}
