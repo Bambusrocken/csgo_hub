@@ -11,6 +11,7 @@ $loader->registerDirs(
 $loader->registerNamespaces(array(
     'Application'    =>  __DIR__ . '/../Application',
     'Application/Haps'    =>  __DIR__ . '/../Application/Haps',
+    'Application/Game'  =>  __DIR__ . '/../Application/Game',
     'Application/Overwatch'    =>  __DIR__ . '/../Application/Overwatch',
     'Library\Socket'    =>  __DIR__ . '/../Library/Socket',
     'Library\Tools'    =>  __DIR__ . '/../Library/Tools',

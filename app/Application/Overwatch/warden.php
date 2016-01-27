@@ -18,10 +18,31 @@
  */
 
 /**
- * wardWatcher is responible of executing important routins in a timely manner
+ * warden is where the actual gameplay are beeing tracked.
  *
  * @author andrek
  */
-class warden {
-    //put your code here
+
+class warden extends \Phalcon\Di\Injectable
+{
+    
+    private $di;                //Dependecy Ínjector Container     
+    //Classes from constructor for logical game data.
+    private $hapWatcher;        //Happening Message service
+    private $rcon;              //Rcon class
+    
+    private $match_id;          //Map Details
+    private $server_ip;         //Actual IP of the game beeing handled
+    private $rcon_password;     //Rcon Password for $server_ip
+            
+    function __construct($hapWatcher,$rcon,$match_id,$server_ip,$rcon_password) {
+        $this->di=getDI();
+        
+        $di['logger']->info('Start game warden for: ' . $server_ip);
+        
+        $this->hapWatcher=$hapWatcher;
+        $this->rcon=$rcon;
+        $this->match_id=$match_id;
+        $this->rcon_password=$rcon_password;
+    }
 }

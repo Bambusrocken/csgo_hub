@@ -14,6 +14,9 @@ use Library\Tools\Rcon\Rcon;
 use Application\Overwatch\gameWatcher;
 use Phalcon\Mvc\Model\Manager as ModelsManager;
 use Application\Overwatch\hapWatcher;
+use Application\Game\score;
+use Application\Game\player;
+use Application\Game\map;
 
 $di->setshared('config', function () use ($config) {
     return $config;
@@ -36,11 +39,11 @@ $di->setShared('db', function () use ($config) {
     return new $class($dbConfig);
 });
 
-$di->set("udpsocket", function () use ($config) {
+$di->setshared("udpsocket", function () use ($config) {
     $maker = new UDSPSocket();
     return $maker->createServer($config->datasocket->type.'://'.$config->datasocket->host.':'.$config->datasocket->port);
 });
-$di->setshared("rcon", function ()  {
+$di->set("rcon", function ()  {
     return new Rcon();
 });
 
@@ -62,3 +65,26 @@ $di->setshared('gameWatcher', function () {
 $di->setshared('hapWatcher', function () {
     return new hapWatcher();
 });
+$di->set('score', function () {
+    return new score();
+});
+
+$di->set('player', function () {
+    return new player;
+});
+
+$di->set('map', function () {
+    return new score();
+});
+
+$di->set('player', function () {
+    return new player();
+});
+
+$di->set('warden', function ($match_id,$server_ip,$rcon_password)  use ($di) {
+    return new warden($di['hapWatcher'],$di['rcon'],$match_id,$server_ip,$rcon_password);
+});
+
+
+
+
