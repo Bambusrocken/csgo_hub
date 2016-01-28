@@ -34,14 +34,14 @@ class hapWatcher extends Injectable
     }
     
     /**
-     * Decode the Source Hap using all avaliable haps and return The Hap as an Array (see corresopnding Hap class at Application/Haps/
+     * Decode the Source Hap using all avaliable haps and return The Hap as 
+     * an Array (see corresopnding Hap class at Application/Haps/
      * 
      * @param type $message
      * @return array 
      */
     public function decodeGameHap($message) {
         foreach ($this->hapEvents as $hap ) {
-            //echo $hap . PHP_EOL;
             if ($this->di[$hap]->compare($message)) {
                 return $this->di[$hap]->generateHap();
             }

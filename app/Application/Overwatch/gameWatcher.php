@@ -46,7 +46,7 @@ class gameWatcher extends Injectable
         //$this->di['logger']->debug('Trying to find new games from the Database');
         $query = $this->di['modelsManager']->createQuery("SELECT m.team_a_name, m.team_b_name, m.id,m.team_a, m.team_b, s.id,s.ip,s.rcon FROM matchs AS m, servers AS s, teams AS ta, teams AS tb WHERE m.auto_start=1 AND m.team_a=ta.id AND m.team_b=tb.id AND m.server_id=s.id");
         $result = $query->execute();
-        echo 'SQL_DUMP' . PHP_EOL;
+        //echo 'SQL_DUMP' . PHP_EOL;
         
         foreach ($result as $new_warden) {
             if (!array_key_exists($new_warden['ip'], $this->active_wardens)) {  //Are there any games active on the is IP (w.x.y.x:ABCDE) already
