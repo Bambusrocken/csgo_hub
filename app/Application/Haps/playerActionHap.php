@@ -1,4 +1,4 @@
-johannes<?php
+<?php
 
 /*
  * Copyright (C) 2016 andrek

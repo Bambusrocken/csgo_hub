@@ -43,11 +43,11 @@ class Application extends ApplicationBase
         
         $logdata='';
         //Infinitive loop for now
-        $this->di['rcon']->authenticate('192.168.110.25',27015,'qwerty1234!');
-        $this->di['rcon']->send('mp_restartgame 1');
+        //$this->di['rcon']->authenticate('192.168.110.25',27015,'qwerty1234!');
+        //$this->di['rcon']->send('mp_restartgame 1');
         
         //$gameWatcher=$this->di['gameWatcher'];
-        $hapWatcher=$this->di['hapWatcher'];
+        //$hapWatcher=$this->di['hapWatcher'];
         
         $timeCursor = microtime(true);
         
@@ -60,18 +60,23 @@ class Application extends ApplicationBase
             if (!empty($data)) {
                $happening=  rtrim(substr($data,5));
                echo $happening . ':' . $ip . PHP_EOL;
-               //echo var_dump($this->di);
-               echo var_dump($hapWatcher->decodeGameHap($happening));
+               
+               //echo var_dump($hapWatcher->decodeGameHap($happening));
+               
+               if ($this->di['gameWatcher']->getWarden($ip) != NULL) {                      //Are there a warden running for the happening source?
+                   $this->di['gameWatcher']->getWarden($ip)->manageHaps($happening);        //Manage the Happenings in the log stream using the correct warden.
+               }
+               
             }
             
             //Extremely crude way of running timed tasks! Need method executor queue!!!
-           /* usleep(50000);
+            usleep(50000);
             $currentTime = microtime(true);
             
             if ($timeCursor + 2 <= $currentTime) {
                 $timeCursor = $currentTime;
                 $this->di['gameWatcher']->status();
-            }*/
+            }
             
             $data=FALSE;
             $ip=FALSE;

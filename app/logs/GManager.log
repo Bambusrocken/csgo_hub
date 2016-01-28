@@ -1783,3 +1783,947 @@
 [Wed, 27 Jan 16 08:41:11 +0100][INFO] Create Happening for playerJoinHap
 [Wed, 27 Jan 16 08:41:11 +0100][INFO] Create Happening for playerEnterHap
 [Wed, 27 Jan 16 08:41:11 +0100][INFO] Create Happening for nadesHap
+[Wed, 27 Jan 16 19:43:11 +0100][INFO] Application Loaded!
+[Wed, 27 Jan 16 19:43:11 +0100][INFO] Rcon loaded
+[Wed, 27 Jan 16 19:43:11 +0100][DEBUG] Trying to Authenticate to SourceServer
+[Wed, 27 Jan 16 19:43:11 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 19:43:11 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 19:43:11 +0100][INFO] Create Happening for playerActionHap
+[Wed, 27 Jan 16 19:43:11 +0100][INFO] Create Happening for attackHap
+[Wed, 27 Jan 16 19:43:11 +0100][INFO] Create Happening for killHap
+[Wed, 27 Jan 16 19:43:11 +0100][INFO] Create Happening for assistHap
+[Wed, 27 Jan 16 19:43:11 +0100][INFO] Create Happening for suicideHap
+[Wed, 27 Jan 16 19:43:11 +0100][INFO] Create Happening for worldHap
+[Wed, 27 Jan 16 19:43:11 +0100][INFO] Create Happening for playerJoinHap
+[Wed, 27 Jan 16 19:43:11 +0100][INFO] Create Happening for playerEnterHap
+[Wed, 27 Jan 16 19:43:11 +0100][INFO] Create Happening for nadesHap
+[Wed, 27 Jan 16 19:43:20 +0100][INFO] Application Loaded!
+[Wed, 27 Jan 16 19:43:20 +0100][INFO] Rcon loaded
+[Wed, 27 Jan 16 19:43:20 +0100][DEBUG] Trying to Authenticate to SourceServer
+[Wed, 27 Jan 16 19:43:20 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 19:43:21 +0100][ERROR] Can't Authenticate to SourceServer on 192.168.110.25:27015 (Operation now in progress (Code: 36))
+[Wed, 27 Jan 16 19:43:28 +0100][INFO] Create Happening for playerActionHap
+[Wed, 27 Jan 16 19:43:28 +0100][INFO] Create Happening for attackHap
+[Wed, 27 Jan 16 19:43:28 +0100][INFO] Create Happening for killHap
+[Wed, 27 Jan 16 19:43:28 +0100][INFO] Create Happening for assistHap
+[Wed, 27 Jan 16 19:43:28 +0100][INFO] Create Happening for suicideHap
+[Wed, 27 Jan 16 19:43:28 +0100][INFO] Create Happening for worldHap
+[Wed, 27 Jan 16 19:43:28 +0100][INFO] gameWatcher going Live
+[Wed, 27 Jan 16 19:43:28 +0100][DEBUG] Trying to find new games from the Database
+[Wed, 27 Jan 16 19:43:35 +0100][INFO] Application Loaded!
+[Wed, 27 Jan 16 19:43:35 +0100][INFO] Rcon loaded
+[Wed, 27 Jan 16 19:43:35 +0100][DEBUG] Trying to Authenticate to SourceServer
+[Wed, 27 Jan 16 19:43:35 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 19:43:36 +0100][ERROR] Can't Authenticate to SourceServer on 192.168.110.25:27015 (Operation now in progress (Code: 36))
+[Wed, 27 Jan 16 19:44:10 +0100][INFO] Application Loaded!
+[Wed, 27 Jan 16 19:44:10 +0100][INFO] Rcon loaded
+[Wed, 27 Jan 16 19:44:10 +0100][DEBUG] Trying to Authenticate to SourceServer
+[Wed, 27 Jan 16 19:44:10 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 19:44:11 +0100][ERROR] Can't Authenticate to SourceServer on 192.168.110.25:27015 (Operation now in progress (Code: 36))
+[Wed, 27 Jan 16 19:44:49 +0100][INFO] Application Loaded!
+[Wed, 27 Jan 16 19:44:49 +0100][INFO] Rcon loaded
+[Wed, 27 Jan 16 19:44:49 +0100][DEBUG] Trying to Authenticate to SourceServer
+[Wed, 27 Jan 16 19:44:49 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 19:44:50 +0100][ERROR] Can't Authenticate to SourceServer on 192.168.110.25:27015 (Operation now in progress (Code: 36))
+[Wed, 27 Jan 16 19:45:28 +0100][INFO] Application Loaded!
+[Wed, 27 Jan 16 19:45:28 +0100][INFO] Rcon loaded
+[Wed, 27 Jan 16 19:45:28 +0100][DEBUG] Trying to Authenticate to SourceServer
+[Wed, 27 Jan 16 19:45:28 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 19:45:28 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 19:45:28 +0100][INFO] Create Happening for playerActionHap
+[Wed, 27 Jan 16 19:45:28 +0100][INFO] Create Happening for attackHap
+[Wed, 27 Jan 16 19:45:28 +0100][INFO] Create Happening for killHap
+[Wed, 27 Jan 16 19:45:28 +0100][INFO] Create Happening for assistHap
+[Wed, 27 Jan 16 19:45:28 +0100][INFO] Create Happening for suicideHap
+[Wed, 27 Jan 16 19:45:28 +0100][INFO] Create Happening for worldHap
+[Wed, 27 Jan 16 19:45:28 +0100][INFO] Create Happening for playerJoinHap
+[Wed, 27 Jan 16 19:45:28 +0100][INFO] Create Happening for playerEnterHap
+[Wed, 27 Jan 16 19:45:28 +0100][INFO] Create Happening for nadesHap
+[Wed, 27 Jan 16 19:46:34 +0100][INFO] Application Loaded!
+[Wed, 27 Jan 16 19:46:34 +0100][INFO] Rcon loaded
+[Wed, 27 Jan 16 19:46:34 +0100][DEBUG] Trying to Authenticate to SourceServer
+[Wed, 27 Jan 16 19:46:34 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 19:46:34 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 19:46:34 +0100][INFO] Create Happening for playerActionHap
+[Wed, 27 Jan 16 19:46:34 +0100][INFO] Create Happening for attackHap
+[Wed, 27 Jan 16 19:46:34 +0100][INFO] Create Happening for killHap
+[Wed, 27 Jan 16 19:46:34 +0100][INFO] Create Happening for assistHap
+[Wed, 27 Jan 16 19:46:34 +0100][INFO] Create Happening for suicideHap
+[Wed, 27 Jan 16 19:46:34 +0100][INFO] Create Happening for worldHap
+[Wed, 27 Jan 16 19:46:34 +0100][INFO] Create Happening for playerJoinHap
+[Wed, 27 Jan 16 19:46:34 +0100][INFO] Create Happening for playerEnterHap
+[Wed, 27 Jan 16 19:46:34 +0100][INFO] Create Happening for nadesHap
+[Wed, 27 Jan 16 19:47:51 +0100][INFO] Application Loaded!
+[Wed, 27 Jan 16 19:47:51 +0100][INFO] Rcon loaded
+[Wed, 27 Jan 16 19:47:51 +0100][DEBUG] Trying to Authenticate to SourceServer
+[Wed, 27 Jan 16 19:47:51 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 19:47:51 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 19:47:51 +0100][INFO] Create Happening for playerActionHap
+[Wed, 27 Jan 16 19:47:51 +0100][INFO] Create Happening for attackHap
+[Wed, 27 Jan 16 19:47:51 +0100][INFO] Create Happening for killHap
+[Wed, 27 Jan 16 19:47:51 +0100][INFO] Create Happening for assistHap
+[Wed, 27 Jan 16 19:47:51 +0100][INFO] Create Happening for suicideHap
+[Wed, 27 Jan 16 19:47:51 +0100][INFO] Create Happening for worldHap
+[Wed, 27 Jan 16 19:47:51 +0100][INFO] Create Happening for playerJoinHap
+[Wed, 27 Jan 16 19:47:51 +0100][INFO] Create Happening for playerEnterHap
+[Wed, 27 Jan 16 19:47:51 +0100][INFO] Create Happening for nadesHap
+[Wed, 27 Jan 16 19:48:08 +0100][INFO] gameWatcher going Live
+[Wed, 27 Jan 16 19:48:08 +0100][DEBUG] Trying to find new games from the Database
+[Wed, 27 Jan 16 19:50:26 +0100][INFO] Application Loaded!
+[Wed, 27 Jan 16 19:50:26 +0100][INFO] Rcon loaded
+[Wed, 27 Jan 16 19:50:26 +0100][DEBUG] Trying to Authenticate to SourceServer
+[Wed, 27 Jan 16 19:50:26 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 19:50:26 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 19:50:26 +0100][INFO] Create Happening for playerActionHap
+[Wed, 27 Jan 16 19:50:26 +0100][INFO] Create Happening for attackHap
+[Wed, 27 Jan 16 19:50:26 +0100][INFO] Create Happening for killHap
+[Wed, 27 Jan 16 19:50:26 +0100][INFO] Create Happening for assistHap
+[Wed, 27 Jan 16 19:50:26 +0100][INFO] Create Happening for suicideHap
+[Wed, 27 Jan 16 19:50:26 +0100][INFO] Create Happening for worldHap
+[Wed, 27 Jan 16 19:50:26 +0100][INFO] Create Happening for playerJoinHap
+[Wed, 27 Jan 16 19:50:26 +0100][INFO] Create Happening for playerEnterHap
+[Wed, 27 Jan 16 19:50:26 +0100][INFO] Create Happening for nadesHap
+[Wed, 27 Jan 16 19:50:42 +0100][INFO] gameWatcher going Live
+[Wed, 27 Jan 16 19:50:42 +0100][DEBUG] Trying to find new games from the Database
+[Wed, 27 Jan 16 19:54:45 +0100][INFO] Application Loaded!
+[Wed, 27 Jan 16 19:54:45 +0100][INFO] Rcon loaded
+[Wed, 27 Jan 16 19:54:45 +0100][DEBUG] Trying to Authenticate to SourceServer
+[Wed, 27 Jan 16 19:54:45 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 19:54:45 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 19:54:45 +0100][INFO] Create Happening for playerActionHap
+[Wed, 27 Jan 16 19:54:45 +0100][INFO] Create Happening for attackHap
+[Wed, 27 Jan 16 19:54:45 +0100][INFO] Create Happening for killHap
+[Wed, 27 Jan 16 19:54:45 +0100][INFO] Create Happening for assistHap
+[Wed, 27 Jan 16 19:54:45 +0100][INFO] Create Happening for suicideHap
+[Wed, 27 Jan 16 19:54:45 +0100][INFO] Create Happening for worldHap
+[Wed, 27 Jan 16 19:54:45 +0100][INFO] Create Happening for playerJoinHap
+[Wed, 27 Jan 16 19:54:45 +0100][INFO] Create Happening for playerEnterHap
+[Wed, 27 Jan 16 19:54:45 +0100][INFO] Create Happening for nadesHap
+[Wed, 27 Jan 16 19:55:01 +0100][INFO] gameWatcher going Live
+[Wed, 27 Jan 16 19:55:01 +0100][DEBUG] Trying to find new games from the Database
+[Wed, 27 Jan 16 19:55:56 +0100][INFO] Application Loaded!
+[Wed, 27 Jan 16 19:55:56 +0100][INFO] Rcon loaded
+[Wed, 27 Jan 16 19:55:56 +0100][DEBUG] Trying to Authenticate to SourceServer
+[Wed, 27 Jan 16 19:55:56 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 19:55:56 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 19:55:56 +0100][INFO] Create Happening for playerActionHap
+[Wed, 27 Jan 16 19:55:56 +0100][INFO] Create Happening for attackHap
+[Wed, 27 Jan 16 19:55:56 +0100][INFO] Create Happening for killHap
+[Wed, 27 Jan 16 19:55:56 +0100][INFO] Create Happening for assistHap
+[Wed, 27 Jan 16 19:55:56 +0100][INFO] Create Happening for suicideHap
+[Wed, 27 Jan 16 19:55:56 +0100][INFO] Create Happening for worldHap
+[Wed, 27 Jan 16 19:55:56 +0100][INFO] Create Happening for playerJoinHap
+[Wed, 27 Jan 16 19:55:56 +0100][INFO] Create Happening for playerEnterHap
+[Wed, 27 Jan 16 19:55:56 +0100][INFO] Create Happening for nadesHap
+[Wed, 27 Jan 16 19:56:13 +0100][INFO] gameWatcher going Live
+[Wed, 27 Jan 16 19:56:13 +0100][DEBUG] Trying to find new games from the Database
+[Wed, 27 Jan 16 19:58:16 +0100][INFO] Application Loaded!
+[Wed, 27 Jan 16 19:58:16 +0100][INFO] Rcon loaded
+[Wed, 27 Jan 16 19:58:16 +0100][DEBUG] Trying to Authenticate to SourceServer
+[Wed, 27 Jan 16 19:58:16 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 19:58:16 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 19:58:16 +0100][INFO] Create Happening for playerActionHap
+[Wed, 27 Jan 16 19:58:16 +0100][INFO] Create Happening for attackHap
+[Wed, 27 Jan 16 19:58:16 +0100][INFO] Create Happening for killHap
+[Wed, 27 Jan 16 19:58:16 +0100][INFO] Create Happening for assistHap
+[Wed, 27 Jan 16 19:58:16 +0100][INFO] Create Happening for suicideHap
+[Wed, 27 Jan 16 19:58:16 +0100][INFO] Create Happening for worldHap
+[Wed, 27 Jan 16 19:58:16 +0100][INFO] Create Happening for playerJoinHap
+[Wed, 27 Jan 16 19:58:16 +0100][INFO] Create Happening for playerEnterHap
+[Wed, 27 Jan 16 19:58:16 +0100][INFO] Create Happening for nadesHap
+[Wed, 27 Jan 16 19:58:18 +0100][INFO] gameWatcher going Live
+[Wed, 27 Jan 16 19:58:18 +0100][DEBUG] Trying to find new games from the Database
+[Wed, 27 Jan 16 19:58:33 +0100][DEBUG] Trying to find new games from the Database
+[Wed, 27 Jan 16 20:00:01 +0100][INFO] Application Loaded!
+[Wed, 27 Jan 16 20:00:01 +0100][INFO] Rcon loaded
+[Wed, 27 Jan 16 20:00:01 +0100][DEBUG] Trying to Authenticate to SourceServer
+[Wed, 27 Jan 16 20:00:01 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 20:00:01 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 20:00:01 +0100][INFO] Create Happening for playerActionHap
+[Wed, 27 Jan 16 20:00:01 +0100][INFO] Create Happening for attackHap
+[Wed, 27 Jan 16 20:00:01 +0100][INFO] Create Happening for killHap
+[Wed, 27 Jan 16 20:00:01 +0100][INFO] Create Happening for assistHap
+[Wed, 27 Jan 16 20:00:01 +0100][INFO] Create Happening for suicideHap
+[Wed, 27 Jan 16 20:00:01 +0100][INFO] Create Happening for worldHap
+[Wed, 27 Jan 16 20:00:01 +0100][INFO] Create Happening for playerJoinHap
+[Wed, 27 Jan 16 20:00:01 +0100][INFO] Create Happening for playerEnterHap
+[Wed, 27 Jan 16 20:00:01 +0100][INFO] Create Happening for nadesHap
+[Wed, 27 Jan 16 20:00:18 +0100][INFO] gameWatcher going Live
+[Wed, 27 Jan 16 20:12:06 +0100][INFO] Application Loaded!
+[Wed, 27 Jan 16 20:12:06 +0100][INFO] Rcon loaded
+[Wed, 27 Jan 16 20:12:06 +0100][DEBUG] Trying to Authenticate to SourceServer
+[Wed, 27 Jan 16 20:12:06 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 20:12:06 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 20:12:06 +0100][INFO] Create Happening for playerActionHap
+[Wed, 27 Jan 16 20:12:06 +0100][INFO] Create Happening for attackHap
+[Wed, 27 Jan 16 20:12:06 +0100][INFO] Create Happening for killHap
+[Wed, 27 Jan 16 20:12:06 +0100][INFO] Create Happening for assistHap
+[Wed, 27 Jan 16 20:12:06 +0100][INFO] Create Happening for suicideHap
+[Wed, 27 Jan 16 20:12:06 +0100][INFO] Create Happening for worldHap
+[Wed, 27 Jan 16 20:12:06 +0100][INFO] Create Happening for playerJoinHap
+[Wed, 27 Jan 16 20:12:06 +0100][INFO] Create Happening for playerEnterHap
+[Wed, 27 Jan 16 20:12:06 +0100][INFO] Create Happening for nadesHap
+[Wed, 27 Jan 16 20:12:22 +0100][INFO] gameWatcher going Live
+[Wed, 27 Jan 16 20:31:38 +0100][INFO] Application Loaded!
+[Wed, 27 Jan 16 20:31:38 +0100][INFO] Rcon loaded
+[Wed, 27 Jan 16 20:31:38 +0100][DEBUG] Trying to Authenticate to SourceServer
+[Wed, 27 Jan 16 20:31:38 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 20:31:38 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 20:31:38 +0100][INFO] Create Happening for playerActionHap
+[Wed, 27 Jan 16 20:31:38 +0100][INFO] Create Happening for attackHap
+[Wed, 27 Jan 16 20:31:38 +0100][INFO] Create Happening for killHap
+[Wed, 27 Jan 16 20:31:38 +0100][INFO] Create Happening for assistHap
+[Wed, 27 Jan 16 20:31:38 +0100][INFO] Create Happening for suicideHap
+[Wed, 27 Jan 16 20:31:38 +0100][INFO] Create Happening for worldHap
+[Wed, 27 Jan 16 20:31:38 +0100][INFO] Create Happening for playerJoinHap
+[Wed, 27 Jan 16 20:31:38 +0100][INFO] Create Happening for playerEnterHap
+[Wed, 27 Jan 16 20:31:38 +0100][INFO] Create Happening for nadesHap
+[Wed, 27 Jan 16 20:32:09 +0100][INFO] Application Loaded!
+[Wed, 27 Jan 16 20:32:09 +0100][INFO] Rcon loaded
+[Wed, 27 Jan 16 20:32:09 +0100][DEBUG] Trying to Authenticate to SourceServer
+[Wed, 27 Jan 16 20:32:09 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 20:32:10 +0100][ERROR] Can't Authenticate to SourceServer on 192.168.110.25:27015 (Operation now in progress (Code: 36))
+[Wed, 27 Jan 16 20:32:34 +0100][INFO] Application Loaded!
+[Wed, 27 Jan 16 20:32:34 +0100][INFO] Rcon loaded
+[Wed, 27 Jan 16 20:32:34 +0100][DEBUG] Trying to Authenticate to SourceServer
+[Wed, 27 Jan 16 20:32:34 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 20:32:35 +0100][ERROR] Can't Authenticate to SourceServer on 192.168.110.25:27015 (Operation now in progress (Code: 36))
+[Wed, 27 Jan 16 20:33:47 +0100][INFO] Application Loaded!
+[Wed, 27 Jan 16 20:33:47 +0100][INFO] Rcon loaded
+[Wed, 27 Jan 16 20:33:47 +0100][DEBUG] Trying to Authenticate to SourceServer
+[Wed, 27 Jan 16 20:33:47 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 20:33:48 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 20:33:48 +0100][INFO] Create Happening for playerActionHap
+[Wed, 27 Jan 16 20:33:48 +0100][INFO] Create Happening for attackHap
+[Wed, 27 Jan 16 20:33:48 +0100][INFO] Create Happening for killHap
+[Wed, 27 Jan 16 20:33:48 +0100][INFO] Create Happening for assistHap
+[Wed, 27 Jan 16 20:33:48 +0100][INFO] Create Happening for suicideHap
+[Wed, 27 Jan 16 20:33:48 +0100][INFO] Create Happening for worldHap
+[Wed, 27 Jan 16 20:33:48 +0100][INFO] Create Happening for playerJoinHap
+[Wed, 27 Jan 16 20:33:48 +0100][INFO] Create Happening for playerEnterHap
+[Wed, 27 Jan 16 20:33:48 +0100][INFO] Create Happening for nadesHap
+[Wed, 27 Jan 16 20:34:34 +0100][INFO] Application Loaded!
+[Wed, 27 Jan 16 20:34:34 +0100][INFO] Rcon loaded
+[Wed, 27 Jan 16 20:34:34 +0100][DEBUG] Trying to Authenticate to SourceServer
+[Wed, 27 Jan 16 20:34:34 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 20:34:35 +0100][ERROR] Can't Authenticate to SourceServer on 192.168.110.25:27015 (Operation now in progress (Code: 36))
+[Wed, 27 Jan 16 20:35:26 +0100][INFO] Application Loaded!
+[Wed, 27 Jan 16 20:35:26 +0100][INFO] Rcon loaded
+[Wed, 27 Jan 16 20:35:26 +0100][DEBUG] Trying to Authenticate to SourceServer
+[Wed, 27 Jan 16 20:35:26 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 20:35:27 +0100][ERROR] Can't Authenticate to SourceServer on 192.168.110.25:27015 (Operation now in progress (Code: 36))
+[Wed, 27 Jan 16 20:36:33 +0100][INFO] Application Loaded!
+[Wed, 27 Jan 16 20:36:33 +0100][INFO] Rcon loaded
+[Wed, 27 Jan 16 20:36:33 +0100][DEBUG] Trying to Authenticate to SourceServer
+[Wed, 27 Jan 16 20:36:33 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 20:36:33 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 20:36:33 +0100][INFO] Create Happening for playerActionHap
+[Wed, 27 Jan 16 20:36:33 +0100][INFO] Create Happening for attackHap
+[Wed, 27 Jan 16 20:36:33 +0100][INFO] Create Happening for killHap
+[Wed, 27 Jan 16 20:36:33 +0100][INFO] Create Happening for assistHap
+[Wed, 27 Jan 16 20:36:33 +0100][INFO] Create Happening for suicideHap
+[Wed, 27 Jan 16 20:36:33 +0100][INFO] Create Happening for worldHap
+[Wed, 27 Jan 16 20:36:33 +0100][INFO] Create Happening for playerJoinHap
+[Wed, 27 Jan 16 20:36:33 +0100][INFO] Create Happening for playerEnterHap
+[Wed, 27 Jan 16 20:36:33 +0100][INFO] Create Happening for nadesHap
+[Wed, 27 Jan 16 20:36:50 +0100][INFO] gameWatcher going Live
+[Wed, 27 Jan 16 20:37:30 +0100][INFO] Application Loaded!
+[Wed, 27 Jan 16 20:37:30 +0100][INFO] Rcon loaded
+[Wed, 27 Jan 16 20:37:30 +0100][DEBUG] Trying to Authenticate to SourceServer
+[Wed, 27 Jan 16 20:37:30 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 20:37:31 +0100][ERROR] Can't Authenticate to SourceServer on 192.168.110.25:27015 (Operation now in progress (Code: 36))
+[Wed, 27 Jan 16 20:38:04 +0100][INFO] Application Loaded!
+[Wed, 27 Jan 16 20:38:04 +0100][INFO] Rcon loaded
+[Wed, 27 Jan 16 20:38:04 +0100][DEBUG] Trying to Authenticate to SourceServer
+[Wed, 27 Jan 16 20:38:04 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 20:38:05 +0100][ERROR] Can't Authenticate to SourceServer on 192.168.110.25:27015 (Operation now in progress (Code: 36))
+[Wed, 27 Jan 16 20:38:36 +0100][INFO] Application Loaded!
+[Wed, 27 Jan 16 20:38:36 +0100][INFO] Rcon loaded
+[Wed, 27 Jan 16 20:38:36 +0100][DEBUG] Trying to Authenticate to SourceServer
+[Wed, 27 Jan 16 20:38:36 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 20:38:36 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 20:38:36 +0100][INFO] Create Happening for playerActionHap
+[Wed, 27 Jan 16 20:38:36 +0100][INFO] Create Happening for attackHap
+[Wed, 27 Jan 16 20:38:36 +0100][INFO] Create Happening for killHap
+[Wed, 27 Jan 16 20:38:36 +0100][INFO] Create Happening for assistHap
+[Wed, 27 Jan 16 20:38:36 +0100][INFO] Create Happening for suicideHap
+[Wed, 27 Jan 16 20:38:36 +0100][INFO] Create Happening for worldHap
+[Wed, 27 Jan 16 20:38:36 +0100][INFO] Create Happening for playerJoinHap
+[Wed, 27 Jan 16 20:38:36 +0100][INFO] Create Happening for playerEnterHap
+[Wed, 27 Jan 16 20:38:36 +0100][INFO] Create Happening for nadesHap
+[Wed, 27 Jan 16 20:38:52 +0100][INFO] gameWatcher going Live
+[Wed, 27 Jan 16 20:38:52 +0100][DEBUG] Trying to find new games from the Database
+[Wed, 27 Jan 16 20:39:06 +0100][INFO] Application Loaded!
+[Wed, 27 Jan 16 20:39:06 +0100][INFO] Rcon loaded
+[Wed, 27 Jan 16 20:39:06 +0100][DEBUG] Trying to Authenticate to SourceServer
+[Wed, 27 Jan 16 20:39:06 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 20:39:07 +0100][ERROR] Can't Authenticate to SourceServer on 192.168.110.25:27015 (Operation now in progress (Code: 36))
+[Wed, 27 Jan 16 20:39:22 +0100][INFO] Application Loaded!
+[Wed, 27 Jan 16 20:39:22 +0100][INFO] Rcon loaded
+[Wed, 27 Jan 16 20:39:22 +0100][DEBUG] Trying to Authenticate to SourceServer
+[Wed, 27 Jan 16 20:39:22 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 20:39:23 +0100][ERROR] Can't Authenticate to SourceServer on 192.168.110.25:27015 (Operation now in progress (Code: 36))
+[Wed, 27 Jan 16 20:39:24 +0100][INFO] Application Loaded!
+[Wed, 27 Jan 16 20:39:24 +0100][INFO] Rcon loaded
+[Wed, 27 Jan 16 20:39:24 +0100][DEBUG] Trying to Authenticate to SourceServer
+[Wed, 27 Jan 16 20:39:24 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 20:39:25 +0100][ERROR] Can't Authenticate to SourceServer on 192.168.110.25:27015 (Operation now in progress (Code: 36))
+[Wed, 27 Jan 16 20:40:30 +0100][INFO] Application Loaded!
+[Wed, 27 Jan 16 20:40:30 +0100][INFO] Rcon loaded
+[Wed, 27 Jan 16 20:40:30 +0100][DEBUG] Trying to Authenticate to SourceServer
+[Wed, 27 Jan 16 20:40:30 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 20:40:31 +0100][ERROR] Can't Authenticate to SourceServer on 192.168.110.25:27015 (Operation now in progress (Code: 36))
+[Wed, 27 Jan 16 20:42:06 +0100][INFO] Application Loaded!
+[Wed, 27 Jan 16 20:42:06 +0100][INFO] Rcon loaded
+[Wed, 27 Jan 16 20:42:06 +0100][DEBUG] Trying to Authenticate to SourceServer
+[Wed, 27 Jan 16 20:42:06 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 20:42:06 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 20:42:06 +0100][INFO] Create Happening for playerActionHap
+[Wed, 27 Jan 16 20:42:06 +0100][INFO] Create Happening for attackHap
+[Wed, 27 Jan 16 20:42:06 +0100][INFO] Create Happening for killHap
+[Wed, 27 Jan 16 20:42:06 +0100][INFO] Create Happening for assistHap
+[Wed, 27 Jan 16 20:42:06 +0100][INFO] Create Happening for suicideHap
+[Wed, 27 Jan 16 20:42:06 +0100][INFO] Create Happening for worldHap
+[Wed, 27 Jan 16 20:42:06 +0100][INFO] Create Happening for playerJoinHap
+[Wed, 27 Jan 16 20:42:06 +0100][INFO] Create Happening for playerEnterHap
+[Wed, 27 Jan 16 20:42:06 +0100][INFO] Create Happening for nadesHap
+[Wed, 27 Jan 16 20:42:23 +0100][INFO] gameWatcher going Live
+[Wed, 27 Jan 16 20:42:23 +0100][DEBUG] Trying to find new games from the Database
+[Wed, 27 Jan 16 20:43:30 +0100][INFO] Application Loaded!
+[Wed, 27 Jan 16 20:43:30 +0100][INFO] Rcon loaded
+[Wed, 27 Jan 16 20:43:30 +0100][DEBUG] Trying to Authenticate to SourceServer
+[Wed, 27 Jan 16 20:43:30 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 20:43:30 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 20:43:30 +0100][INFO] Create Happening for playerActionHap
+[Wed, 27 Jan 16 20:43:30 +0100][INFO] Create Happening for attackHap
+[Wed, 27 Jan 16 20:43:30 +0100][INFO] Create Happening for killHap
+[Wed, 27 Jan 16 20:43:30 +0100][INFO] Create Happening for assistHap
+[Wed, 27 Jan 16 20:43:30 +0100][INFO] Create Happening for suicideHap
+[Wed, 27 Jan 16 20:43:30 +0100][INFO] Create Happening for worldHap
+[Wed, 27 Jan 16 20:43:30 +0100][INFO] Create Happening for playerJoinHap
+[Wed, 27 Jan 16 20:43:30 +0100][INFO] Create Happening for playerEnterHap
+[Wed, 27 Jan 16 20:43:30 +0100][INFO] Create Happening for nadesHap
+[Wed, 27 Jan 16 20:43:32 +0100][INFO] gameWatcher going Live
+[Wed, 27 Jan 16 20:43:32 +0100][DEBUG] Trying to find new games from the Database
+[Wed, 27 Jan 16 20:44:03 +0100][INFO] Application Loaded!
+[Wed, 27 Jan 16 20:44:03 +0100][INFO] Rcon loaded
+[Wed, 27 Jan 16 20:44:03 +0100][DEBUG] Trying to Authenticate to SourceServer
+[Wed, 27 Jan 16 20:44:03 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 20:44:04 +0100][ERROR] Can't Authenticate to SourceServer on 192.168.110.25:27015 (Operation now in progress (Code: 36))
+[Wed, 27 Jan 16 20:44:15 +0100][INFO] Application Loaded!
+[Wed, 27 Jan 16 20:44:15 +0100][INFO] Rcon loaded
+[Wed, 27 Jan 16 20:44:15 +0100][DEBUG] Trying to Authenticate to SourceServer
+[Wed, 27 Jan 16 20:44:15 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 20:44:16 +0100][ERROR] Can't Authenticate to SourceServer on 192.168.110.25:27015 (Operation now in progress (Code: 36))
+[Wed, 27 Jan 16 20:44:33 +0100][INFO] Application Loaded!
+[Wed, 27 Jan 16 20:44:33 +0100][INFO] Rcon loaded
+[Wed, 27 Jan 16 20:44:33 +0100][DEBUG] Trying to Authenticate to SourceServer
+[Wed, 27 Jan 16 20:44:33 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 20:44:33 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 20:44:33 +0100][INFO] Create Happening for playerActionHap
+[Wed, 27 Jan 16 20:44:33 +0100][INFO] Create Happening for attackHap
+[Wed, 27 Jan 16 20:44:33 +0100][INFO] Create Happening for killHap
+[Wed, 27 Jan 16 20:44:33 +0100][INFO] Create Happening for assistHap
+[Wed, 27 Jan 16 20:44:33 +0100][INFO] Create Happening for suicideHap
+[Wed, 27 Jan 16 20:44:33 +0100][INFO] Create Happening for worldHap
+[Wed, 27 Jan 16 20:44:33 +0100][INFO] Create Happening for playerJoinHap
+[Wed, 27 Jan 16 20:44:33 +0100][INFO] Create Happening for playerEnterHap
+[Wed, 27 Jan 16 20:44:33 +0100][INFO] Create Happening for nadesHap
+[Wed, 27 Jan 16 20:44:49 +0100][INFO] gameWatcher going Live
+[Wed, 27 Jan 16 20:44:49 +0100][DEBUG] Trying to find new games from the Database
+[Wed, 27 Jan 16 20:46:01 +0100][INFO] Application Loaded!
+[Wed, 27 Jan 16 20:46:01 +0100][INFO] Rcon loaded
+[Wed, 27 Jan 16 20:46:01 +0100][DEBUG] Trying to Authenticate to SourceServer
+[Wed, 27 Jan 16 20:46:01 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 20:46:01 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 20:46:01 +0100][INFO] Create Happening for playerActionHap
+[Wed, 27 Jan 16 20:46:01 +0100][INFO] Create Happening for attackHap
+[Wed, 27 Jan 16 20:46:01 +0100][INFO] Create Happening for killHap
+[Wed, 27 Jan 16 20:46:01 +0100][INFO] Create Happening for assistHap
+[Wed, 27 Jan 16 20:46:01 +0100][INFO] Create Happening for suicideHap
+[Wed, 27 Jan 16 20:46:01 +0100][INFO] Create Happening for worldHap
+[Wed, 27 Jan 16 20:46:01 +0100][INFO] Create Happening for playerJoinHap
+[Wed, 27 Jan 16 20:46:01 +0100][INFO] Create Happening for playerEnterHap
+[Wed, 27 Jan 16 20:46:01 +0100][INFO] Create Happening for nadesHap
+[Wed, 27 Jan 16 20:46:18 +0100][INFO] gameWatcher going Live
+[Wed, 27 Jan 16 20:46:18 +0100][DEBUG] Trying to find new games from the Database
+[Wed, 27 Jan 16 20:53:35 +0100][INFO] Application Loaded!
+[Wed, 27 Jan 16 20:53:35 +0100][INFO] Rcon loaded
+[Wed, 27 Jan 16 20:53:35 +0100][DEBUG] Trying to Authenticate to SourceServer
+[Wed, 27 Jan 16 20:53:35 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 20:53:35 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 20:53:35 +0100][INFO] Create Happening for playerActionHap
+[Wed, 27 Jan 16 20:53:35 +0100][INFO] Create Happening for attackHap
+[Wed, 27 Jan 16 20:53:35 +0100][INFO] Create Happening for killHap
+[Wed, 27 Jan 16 20:53:35 +0100][INFO] Create Happening for assistHap
+[Wed, 27 Jan 16 20:53:35 +0100][INFO] Create Happening for suicideHap
+[Wed, 27 Jan 16 20:53:35 +0100][INFO] Create Happening for worldHap
+[Wed, 27 Jan 16 20:53:35 +0100][INFO] Create Happening for playerJoinHap
+[Wed, 27 Jan 16 20:53:35 +0100][INFO] Create Happening for playerEnterHap
+[Wed, 27 Jan 16 20:53:35 +0100][INFO] Create Happening for nadesHap
+[Wed, 27 Jan 16 20:53:51 +0100][INFO] gameWatcher going Live
+[Wed, 27 Jan 16 20:53:51 +0100][DEBUG] Trying to find new games from the Database
+[Wed, 27 Jan 16 20:54:18 +0100][INFO] Application Loaded!
+[Wed, 27 Jan 16 20:54:18 +0100][INFO] Rcon loaded
+[Wed, 27 Jan 16 20:54:18 +0100][DEBUG] Trying to Authenticate to SourceServer
+[Wed, 27 Jan 16 20:54:18 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 20:54:19 +0100][ERROR] Can't Authenticate to SourceServer on 192.168.110.25:27015 (Operation now in progress (Code: 36))
+[Wed, 27 Jan 16 20:54:43 +0100][INFO] Application Loaded!
+[Wed, 27 Jan 16 20:54:43 +0100][INFO] Rcon loaded
+[Wed, 27 Jan 16 20:54:43 +0100][DEBUG] Trying to Authenticate to SourceServer
+[Wed, 27 Jan 16 20:54:43 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 20:54:43 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 20:54:43 +0100][INFO] Create Happening for playerActionHap
+[Wed, 27 Jan 16 20:54:43 +0100][INFO] Create Happening for attackHap
+[Wed, 27 Jan 16 20:54:43 +0100][INFO] Create Happening for killHap
+[Wed, 27 Jan 16 20:54:43 +0100][INFO] Create Happening for assistHap
+[Wed, 27 Jan 16 20:54:43 +0100][INFO] Create Happening for suicideHap
+[Wed, 27 Jan 16 20:54:43 +0100][INFO] Create Happening for worldHap
+[Wed, 27 Jan 16 20:54:43 +0100][INFO] Create Happening for playerJoinHap
+[Wed, 27 Jan 16 20:54:43 +0100][INFO] Create Happening for playerEnterHap
+[Wed, 27 Jan 16 20:54:43 +0100][INFO] Create Happening for nadesHap
+[Wed, 27 Jan 16 20:55:00 +0100][INFO] gameWatcher going Live
+[Wed, 27 Jan 16 20:55:00 +0100][DEBUG] Trying to find new games from the Database
+[Wed, 27 Jan 16 20:55:28 +0100][INFO] Application Loaded!
+[Wed, 27 Jan 16 20:55:28 +0100][INFO] Rcon loaded
+[Wed, 27 Jan 16 20:55:28 +0100][DEBUG] Trying to Authenticate to SourceServer
+[Wed, 27 Jan 16 20:55:28 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 20:55:29 +0100][ERROR] Can't Authenticate to SourceServer on 192.168.110.25:27015 (Operation now in progress (Code: 36))
+[Wed, 27 Jan 16 20:57:12 +0100][INFO] Application Loaded!
+[Wed, 27 Jan 16 20:57:12 +0100][INFO] Rcon loaded
+[Wed, 27 Jan 16 20:57:12 +0100][DEBUG] Trying to Authenticate to SourceServer
+[Wed, 27 Jan 16 20:57:12 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 20:57:12 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 20:57:12 +0100][INFO] Create Happening for playerActionHap
+[Wed, 27 Jan 16 20:57:12 +0100][INFO] Create Happening for attackHap
+[Wed, 27 Jan 16 20:57:12 +0100][INFO] Create Happening for killHap
+[Wed, 27 Jan 16 20:57:12 +0100][INFO] Create Happening for assistHap
+[Wed, 27 Jan 16 20:57:12 +0100][INFO] Create Happening for suicideHap
+[Wed, 27 Jan 16 20:57:12 +0100][INFO] Create Happening for worldHap
+[Wed, 27 Jan 16 20:57:12 +0100][INFO] Create Happening for playerJoinHap
+[Wed, 27 Jan 16 20:57:12 +0100][INFO] Create Happening for playerEnterHap
+[Wed, 27 Jan 16 20:57:12 +0100][INFO] Create Happening for nadesHap
+[Wed, 27 Jan 16 20:57:14 +0100][INFO] gameWatcher going Live
+[Wed, 27 Jan 16 20:57:14 +0100][DEBUG] Trying to find new games from the Database
+[Wed, 27 Jan 16 21:14:14 +0100][INFO] Application Loaded!
+[Wed, 27 Jan 16 21:14:14 +0100][INFO] Rcon loaded
+[Wed, 27 Jan 16 21:14:14 +0100][DEBUG] Trying to Authenticate to SourceServer
+[Wed, 27 Jan 16 21:14:14 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 21:14:14 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 21:14:14 +0100][INFO] Create Happening for playerActionHap
+[Wed, 27 Jan 16 21:14:14 +0100][INFO] Create Happening for attackHap
+[Wed, 27 Jan 16 21:14:14 +0100][INFO] Create Happening for killHap
+[Wed, 27 Jan 16 21:14:14 +0100][INFO] Create Happening for assistHap
+[Wed, 27 Jan 16 21:14:14 +0100][INFO] Create Happening for suicideHap
+[Wed, 27 Jan 16 21:14:14 +0100][INFO] Create Happening for worldHap
+[Wed, 27 Jan 16 21:14:14 +0100][INFO] Create Happening for playerJoinHap
+[Wed, 27 Jan 16 21:14:14 +0100][INFO] Create Happening for playerEnterHap
+[Wed, 27 Jan 16 21:14:14 +0100][INFO] Create Happening for nadesHap
+[Wed, 27 Jan 16 21:14:31 +0100][INFO] gameWatcher going Live
+[Wed, 27 Jan 16 21:16:02 +0100][INFO] Application Loaded!
+[Wed, 27 Jan 16 21:16:02 +0100][INFO] Rcon loaded
+[Wed, 27 Jan 16 21:16:02 +0100][DEBUG] Trying to Authenticate to SourceServer
+[Wed, 27 Jan 16 21:16:02 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 21:16:02 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 21:16:02 +0100][INFO] Create Happening for playerActionHap
+[Wed, 27 Jan 16 21:16:02 +0100][INFO] Create Happening for attackHap
+[Wed, 27 Jan 16 21:16:02 +0100][INFO] Create Happening for killHap
+[Wed, 27 Jan 16 21:16:02 +0100][INFO] Create Happening for assistHap
+[Wed, 27 Jan 16 21:16:02 +0100][INFO] Create Happening for suicideHap
+[Wed, 27 Jan 16 21:16:02 +0100][INFO] Create Happening for worldHap
+[Wed, 27 Jan 16 21:16:02 +0100][INFO] Create Happening for playerJoinHap
+[Wed, 27 Jan 16 21:16:02 +0100][INFO] Create Happening for playerEnterHap
+[Wed, 27 Jan 16 21:16:02 +0100][INFO] Create Happening for nadesHap
+[Wed, 27 Jan 16 21:16:19 +0100][INFO] gameWatcher going Live
+[Wed, 27 Jan 16 21:21:51 +0100][INFO] Application Loaded!
+[Wed, 27 Jan 16 21:21:51 +0100][INFO] Rcon loaded
+[Wed, 27 Jan 16 21:21:51 +0100][DEBUG] Trying to Authenticate to SourceServer
+[Wed, 27 Jan 16 21:21:51 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 21:21:51 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 21:21:51 +0100][INFO] Create Happening for playerActionHap
+[Wed, 27 Jan 16 21:21:51 +0100][INFO] Create Happening for attackHap
+[Wed, 27 Jan 16 21:21:51 +0100][INFO] Create Happening for killHap
+[Wed, 27 Jan 16 21:21:51 +0100][INFO] Create Happening for assistHap
+[Wed, 27 Jan 16 21:21:51 +0100][INFO] Create Happening for suicideHap
+[Wed, 27 Jan 16 21:21:51 +0100][INFO] Create Happening for worldHap
+[Wed, 27 Jan 16 21:21:51 +0100][INFO] Create Happening for playerJoinHap
+[Wed, 27 Jan 16 21:21:51 +0100][INFO] Create Happening for playerEnterHap
+[Wed, 27 Jan 16 21:21:51 +0100][INFO] Create Happening for nadesHap
+[Wed, 27 Jan 16 21:21:53 +0100][INFO] gameWatcher going Live
+[Wed, 27 Jan 16 21:35:48 +0100][INFO] Application Loaded!
+[Wed, 27 Jan 16 21:35:48 +0100][INFO] Rcon loaded
+[Wed, 27 Jan 16 21:35:48 +0100][DEBUG] Trying to Authenticate to SourceServer
+[Wed, 27 Jan 16 21:35:48 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 21:35:48 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 21:35:48 +0100][INFO] Create Happening for playerActionHap
+[Wed, 27 Jan 16 21:35:48 +0100][INFO] Create Happening for attackHap
+[Wed, 27 Jan 16 21:35:48 +0100][INFO] Create Happening for killHap
+[Wed, 27 Jan 16 21:35:48 +0100][INFO] Create Happening for assistHap
+[Wed, 27 Jan 16 21:35:48 +0100][INFO] Create Happening for suicideHap
+[Wed, 27 Jan 16 21:35:48 +0100][INFO] Create Happening for worldHap
+[Wed, 27 Jan 16 21:35:48 +0100][INFO] Create Happening for playerJoinHap
+[Wed, 27 Jan 16 21:35:48 +0100][INFO] Create Happening for playerEnterHap
+[Wed, 27 Jan 16 21:35:48 +0100][INFO] Create Happening for nadesHap
+[Wed, 27 Jan 16 21:36:04 +0100][INFO] gameWatcher going Live
+[Wed, 27 Jan 16 21:38:59 +0100][INFO] Application Loaded!
+[Wed, 27 Jan 16 21:38:59 +0100][INFO] Rcon loaded
+[Wed, 27 Jan 16 21:38:59 +0100][DEBUG] Trying to Authenticate to SourceServer
+[Wed, 27 Jan 16 21:38:59 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 21:38:59 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 21:38:59 +0100][INFO] Create Happening for playerActionHap
+[Wed, 27 Jan 16 21:38:59 +0100][INFO] Create Happening for attackHap
+[Wed, 27 Jan 16 21:38:59 +0100][INFO] Create Happening for killHap
+[Wed, 27 Jan 16 21:38:59 +0100][INFO] Create Happening for assistHap
+[Wed, 27 Jan 16 21:38:59 +0100][INFO] Create Happening for suicideHap
+[Wed, 27 Jan 16 21:38:59 +0100][INFO] Create Happening for worldHap
+[Wed, 27 Jan 16 21:38:59 +0100][INFO] Create Happening for playerJoinHap
+[Wed, 27 Jan 16 21:38:59 +0100][INFO] Create Happening for playerEnterHap
+[Wed, 27 Jan 16 21:38:59 +0100][INFO] Create Happening for nadesHap
+[Wed, 27 Jan 16 21:39:16 +0100][INFO] gameWatcher going Live
+[Wed, 27 Jan 16 21:39:57 +0100][INFO] Application Loaded!
+[Wed, 27 Jan 16 21:39:57 +0100][INFO] Rcon loaded
+[Wed, 27 Jan 16 21:39:57 +0100][DEBUG] Trying to Authenticate to SourceServer
+[Wed, 27 Jan 16 21:39:57 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 21:39:58 +0100][ERROR] Can't Authenticate to SourceServer on 192.168.110.25:27015 (Operation now in progress (Code: 36))
+[Wed, 27 Jan 16 21:41:36 +0100][INFO] Application Loaded!
+[Wed, 27 Jan 16 21:41:36 +0100][INFO] Rcon loaded
+[Wed, 27 Jan 16 21:41:36 +0100][DEBUG] Trying to Authenticate to SourceServer
+[Wed, 27 Jan 16 21:41:36 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 21:41:36 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 21:41:36 +0100][INFO] Create Happening for playerActionHap
+[Wed, 27 Jan 16 21:41:36 +0100][INFO] Create Happening for attackHap
+[Wed, 27 Jan 16 21:41:36 +0100][INFO] Create Happening for killHap
+[Wed, 27 Jan 16 21:41:36 +0100][INFO] Create Happening for assistHap
+[Wed, 27 Jan 16 21:41:36 +0100][INFO] Create Happening for suicideHap
+[Wed, 27 Jan 16 21:41:36 +0100][INFO] Create Happening for worldHap
+[Wed, 27 Jan 16 21:41:36 +0100][INFO] Create Happening for playerJoinHap
+[Wed, 27 Jan 16 21:41:36 +0100][INFO] Create Happening for playerEnterHap
+[Wed, 27 Jan 16 21:41:36 +0100][INFO] Create Happening for nadesHap
+[Wed, 27 Jan 16 21:41:53 +0100][INFO] gameWatcher going Live
+[Wed, 27 Jan 16 21:42:33 +0100][INFO] Application Loaded!
+[Wed, 27 Jan 16 21:42:33 +0100][INFO] Rcon loaded
+[Wed, 27 Jan 16 21:42:33 +0100][DEBUG] Trying to Authenticate to SourceServer
+[Wed, 27 Jan 16 21:42:33 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 21:42:34 +0100][ERROR] Can't Authenticate to SourceServer on 192.168.110.25:27015 (Operation now in progress (Code: 36))
+[Wed, 27 Jan 16 21:42:36 +0100][INFO] Application Loaded!
+[Wed, 27 Jan 16 21:42:36 +0100][INFO] Rcon loaded
+[Wed, 27 Jan 16 21:42:36 +0100][DEBUG] Trying to Authenticate to SourceServer
+[Wed, 27 Jan 16 21:42:36 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 21:42:37 +0100][ERROR] Can't Authenticate to SourceServer on 192.168.110.25:27015 (Operation now in progress (Code: 36))
+[Wed, 27 Jan 16 21:43:09 +0100][INFO] Application Loaded!
+[Wed, 27 Jan 16 21:43:09 +0100][INFO] Rcon loaded
+[Wed, 27 Jan 16 21:43:09 +0100][DEBUG] Trying to Authenticate to SourceServer
+[Wed, 27 Jan 16 21:43:09 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 21:43:10 +0100][ERROR] Can't Authenticate to SourceServer on 192.168.110.25:27015 (Operation now in progress (Code: 36))
+[Wed, 27 Jan 16 21:46:31 +0100][INFO] Application Loaded!
+[Wed, 27 Jan 16 21:46:31 +0100][INFO] Rcon loaded
+[Wed, 27 Jan 16 21:46:31 +0100][DEBUG] Trying to Authenticate to SourceServer
+[Wed, 27 Jan 16 21:46:31 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 21:46:31 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 21:46:32 +0100][INFO] Create Happening for playerActionHap
+[Wed, 27 Jan 16 21:46:32 +0100][INFO] Create Happening for attackHap
+[Wed, 27 Jan 16 21:46:32 +0100][INFO] Create Happening for killHap
+[Wed, 27 Jan 16 21:46:32 +0100][INFO] Create Happening for assistHap
+[Wed, 27 Jan 16 21:46:32 +0100][INFO] Create Happening for suicideHap
+[Wed, 27 Jan 16 21:46:32 +0100][INFO] Create Happening for worldHap
+[Wed, 27 Jan 16 21:46:32 +0100][INFO] Create Happening for playerJoinHap
+[Wed, 27 Jan 16 21:46:32 +0100][INFO] Create Happening for playerEnterHap
+[Wed, 27 Jan 16 21:46:32 +0100][INFO] Create Happening for nadesHap
+[Wed, 27 Jan 16 21:46:48 +0100][INFO] gameWatcher going Live
+[Wed, 27 Jan 16 21:47:35 +0100][INFO] Application Loaded!
+[Wed, 27 Jan 16 21:47:35 +0100][INFO] Rcon loaded
+[Wed, 27 Jan 16 21:47:35 +0100][DEBUG] Trying to Authenticate to SourceServer
+[Wed, 27 Jan 16 21:47:35 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 21:47:35 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 21:47:35 +0100][INFO] Create Happening for playerActionHap
+[Wed, 27 Jan 16 21:47:35 +0100][INFO] Create Happening for attackHap
+[Wed, 27 Jan 16 21:47:35 +0100][INFO] Create Happening for killHap
+[Wed, 27 Jan 16 21:47:35 +0100][INFO] Create Happening for assistHap
+[Wed, 27 Jan 16 21:47:35 +0100][INFO] Create Happening for suicideHap
+[Wed, 27 Jan 16 21:47:35 +0100][INFO] Create Happening for worldHap
+[Wed, 27 Jan 16 21:47:35 +0100][INFO] Create Happening for playerJoinHap
+[Wed, 27 Jan 16 21:47:35 +0100][INFO] Create Happening for playerEnterHap
+[Wed, 27 Jan 16 21:47:35 +0100][INFO] Create Happening for nadesHap
+[Wed, 27 Jan 16 21:47:37 +0100][INFO] gameWatcher going Live
+[Wed, 27 Jan 16 21:52:16 +0100][INFO] Application Loaded!
+[Wed, 27 Jan 16 21:52:16 +0100][INFO] Rcon loaded
+[Wed, 27 Jan 16 21:52:16 +0100][DEBUG] Trying to Authenticate to SourceServer
+[Wed, 27 Jan 16 21:52:16 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 21:52:16 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 21:52:17 +0100][INFO] Create Happening for playerActionHap
+[Wed, 27 Jan 16 21:52:17 +0100][INFO] Create Happening for attackHap
+[Wed, 27 Jan 16 21:52:17 +0100][INFO] Create Happening for killHap
+[Wed, 27 Jan 16 21:52:17 +0100][INFO] Create Happening for assistHap
+[Wed, 27 Jan 16 21:52:17 +0100][INFO] Create Happening for suicideHap
+[Wed, 27 Jan 16 21:52:17 +0100][INFO] Create Happening for worldHap
+[Wed, 27 Jan 16 21:52:17 +0100][INFO] Create Happening for playerJoinHap
+[Wed, 27 Jan 16 21:52:17 +0100][INFO] Create Happening for playerEnterHap
+[Wed, 27 Jan 16 21:52:17 +0100][INFO] Create Happening for nadesHap
+[Wed, 27 Jan 16 21:52:33 +0100][INFO] gameWatcher going Live
+[Wed, 27 Jan 16 21:54:57 +0100][INFO] Application Loaded!
+[Wed, 27 Jan 16 21:54:57 +0100][INFO] Rcon loaded
+[Wed, 27 Jan 16 21:54:57 +0100][DEBUG] Trying to Authenticate to SourceServer
+[Wed, 27 Jan 16 21:54:57 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 21:54:57 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 21:54:57 +0100][INFO] Create Happening for playerActionHap
+[Wed, 27 Jan 16 21:54:57 +0100][INFO] Create Happening for attackHap
+[Wed, 27 Jan 16 21:54:57 +0100][INFO] Create Happening for killHap
+[Wed, 27 Jan 16 21:54:57 +0100][INFO] Create Happening for assistHap
+[Wed, 27 Jan 16 21:54:57 +0100][INFO] Create Happening for suicideHap
+[Wed, 27 Jan 16 21:54:57 +0100][INFO] Create Happening for worldHap
+[Wed, 27 Jan 16 21:54:57 +0100][INFO] Create Happening for playerJoinHap
+[Wed, 27 Jan 16 21:54:57 +0100][INFO] Create Happening for playerEnterHap
+[Wed, 27 Jan 16 21:54:57 +0100][INFO] Create Happening for nadesHap
+[Wed, 27 Jan 16 21:55:13 +0100][INFO] gameWatcher going Live
+[Wed, 27 Jan 16 22:01:16 +0100][INFO] Application Loaded!
+[Wed, 27 Jan 16 22:01:16 +0100][INFO] Rcon loaded
+[Wed, 27 Jan 16 22:01:16 +0100][DEBUG] Trying to Authenticate to SourceServer
+[Wed, 27 Jan 16 22:01:16 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 22:01:16 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 22:01:16 +0100][INFO] Create Happening for playerActionHap
+[Wed, 27 Jan 16 22:01:16 +0100][INFO] Create Happening for attackHap
+[Wed, 27 Jan 16 22:01:16 +0100][INFO] Create Happening for killHap
+[Wed, 27 Jan 16 22:01:16 +0100][INFO] Create Happening for assistHap
+[Wed, 27 Jan 16 22:01:16 +0100][INFO] Create Happening for suicideHap
+[Wed, 27 Jan 16 22:01:16 +0100][INFO] Create Happening for worldHap
+[Wed, 27 Jan 16 22:01:16 +0100][INFO] Create Happening for playerJoinHap
+[Wed, 27 Jan 16 22:01:16 +0100][INFO] Create Happening for playerEnterHap
+[Wed, 27 Jan 16 22:01:16 +0100][INFO] Create Happening for nadesHap
+[Wed, 27 Jan 16 22:01:33 +0100][INFO] gameWatcher going Live
+[Wed, 27 Jan 16 22:01:55 +0100][INFO] Application Loaded!
+[Wed, 27 Jan 16 22:01:55 +0100][INFO] Rcon loaded
+[Wed, 27 Jan 16 22:01:55 +0100][DEBUG] Trying to Authenticate to SourceServer
+[Wed, 27 Jan 16 22:01:55 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 22:01:56 +0100][ERROR] Can't Authenticate to SourceServer on 192.168.110.25:27015 (Operation now in progress (Code: 36))
+[Wed, 27 Jan 16 22:02:00 +0100][INFO] Application Loaded!
+[Wed, 27 Jan 16 22:02:00 +0100][INFO] Rcon loaded
+[Wed, 27 Jan 16 22:02:00 +0100][DEBUG] Trying to Authenticate to SourceServer
+[Wed, 27 Jan 16 22:02:00 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 22:02:01 +0100][ERROR] Can't Authenticate to SourceServer on 192.168.110.25:27015 (Operation now in progress (Code: 36))
+[Wed, 27 Jan 16 22:02:07 +0100][INFO] Application Loaded!
+[Wed, 27 Jan 16 22:02:07 +0100][INFO] Rcon loaded
+[Wed, 27 Jan 16 22:02:07 +0100][DEBUG] Trying to Authenticate to SourceServer
+[Wed, 27 Jan 16 22:02:07 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 22:02:08 +0100][ERROR] Can't Authenticate to SourceServer on 192.168.110.25:27015 (Operation now in progress (Code: 36))
+[Wed, 27 Jan 16 22:02:21 +0100][INFO] Application Loaded!
+[Wed, 27 Jan 16 22:02:21 +0100][INFO] Rcon loaded
+[Wed, 27 Jan 16 22:02:21 +0100][DEBUG] Trying to Authenticate to SourceServer
+[Wed, 27 Jan 16 22:02:21 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 22:02:21 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 22:02:22 +0100][INFO] Create Happening for playerActionHap
+[Wed, 27 Jan 16 22:02:22 +0100][INFO] Create Happening for attackHap
+[Wed, 27 Jan 16 22:02:22 +0100][INFO] Create Happening for killHap
+[Wed, 27 Jan 16 22:02:22 +0100][INFO] Create Happening for assistHap
+[Wed, 27 Jan 16 22:02:22 +0100][INFO] Create Happening for suicideHap
+[Wed, 27 Jan 16 22:02:22 +0100][INFO] Create Happening for worldHap
+[Wed, 27 Jan 16 22:02:22 +0100][INFO] Create Happening for playerJoinHap
+[Wed, 27 Jan 16 22:02:22 +0100][INFO] Create Happening for playerEnterHap
+[Wed, 27 Jan 16 22:02:22 +0100][INFO] Create Happening for nadesHap
+[Wed, 27 Jan 16 22:02:24 +0100][INFO] gameWatcher going Live
+[Wed, 27 Jan 16 22:17:46 +0100][INFO] Application Loaded!
+[Wed, 27 Jan 16 22:17:46 +0100][INFO] Rcon loaded
+[Wed, 27 Jan 16 22:17:46 +0100][DEBUG] Trying to Authenticate to SourceServer
+[Wed, 27 Jan 16 22:17:46 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 22:17:46 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 22:17:46 +0100][INFO] Create Happening for playerActionHap
+[Wed, 27 Jan 16 22:17:46 +0100][INFO] Create Happening for attackHap
+[Wed, 27 Jan 16 22:17:46 +0100][INFO] Create Happening for killHap
+[Wed, 27 Jan 16 22:17:46 +0100][INFO] Create Happening for assistHap
+[Wed, 27 Jan 16 22:17:46 +0100][INFO] Create Happening for suicideHap
+[Wed, 27 Jan 16 22:17:46 +0100][INFO] Create Happening for worldHap
+[Wed, 27 Jan 16 22:17:46 +0100][INFO] Create Happening for playerJoinHap
+[Wed, 27 Jan 16 22:17:46 +0100][INFO] Create Happening for playerEnterHap
+[Wed, 27 Jan 16 22:17:46 +0100][INFO] Create Happening for nadesHap
+[Wed, 27 Jan 16 22:18:03 +0100][INFO] gameWatcher going Live
+[Wed, 27 Jan 16 22:18:03 +0100][INFO] Create new Match with teams myteam vs yourteam
+[Wed, 27 Jan 16 22:59:43 +0100][INFO] Application Loaded!
+[Wed, 27 Jan 16 22:59:43 +0100][INFO] Rcon loaded
+[Wed, 27 Jan 16 22:59:43 +0100][DEBUG] Trying to Authenticate to SourceServer
+[Wed, 27 Jan 16 22:59:43 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 22:59:43 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 22:59:43 +0100][INFO] Create Happening for playerActionHap
+[Wed, 27 Jan 16 22:59:43 +0100][INFO] Create Happening for attackHap
+[Wed, 27 Jan 16 22:59:43 +0100][INFO] Create Happening for killHap
+[Wed, 27 Jan 16 22:59:43 +0100][INFO] Create Happening for assistHap
+[Wed, 27 Jan 16 22:59:43 +0100][INFO] Create Happening for suicideHap
+[Wed, 27 Jan 16 22:59:43 +0100][INFO] Create Happening for worldHap
+[Wed, 27 Jan 16 22:59:43 +0100][INFO] Create Happening for playerJoinHap
+[Wed, 27 Jan 16 22:59:43 +0100][INFO] Create Happening for playerEnterHap
+[Wed, 27 Jan 16 22:59:43 +0100][INFO] Create Happening for nadesHap
+[Wed, 27 Jan 16 22:59:59 +0100][INFO] gameWatcher going Live
+[Wed, 27 Jan 16 22:59:59 +0100][INFO] Create new Game for ### myteam vs yourteam ###
+[Wed, 27 Jan 16 23:01:00 +0100][INFO] Application Loaded!
+[Wed, 27 Jan 16 23:01:00 +0100][INFO] Rcon loaded
+[Wed, 27 Jan 16 23:01:00 +0100][DEBUG] Trying to Authenticate to SourceServer
+[Wed, 27 Jan 16 23:01:00 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 23:01:00 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 23:01:00 +0100][INFO] Create Happening for playerActionHap
+[Wed, 27 Jan 16 23:01:00 +0100][INFO] Create Happening for attackHap
+[Wed, 27 Jan 16 23:01:00 +0100][INFO] Create Happening for killHap
+[Wed, 27 Jan 16 23:01:00 +0100][INFO] Create Happening for assistHap
+[Wed, 27 Jan 16 23:01:00 +0100][INFO] Create Happening for suicideHap
+[Wed, 27 Jan 16 23:01:00 +0100][INFO] Create Happening for worldHap
+[Wed, 27 Jan 16 23:01:00 +0100][INFO] Create Happening for playerJoinHap
+[Wed, 27 Jan 16 23:01:00 +0100][INFO] Create Happening for playerEnterHap
+[Wed, 27 Jan 16 23:01:00 +0100][INFO] Create Happening for nadesHap
+[Wed, 27 Jan 16 23:01:17 +0100][INFO] gameWatcher going Live
+[Wed, 27 Jan 16 23:01:17 +0100][INFO] Create new Game for ### myteam vs yourteam ###
+[Wed, 27 Jan 16 23:02:02 +0100][INFO] Application Loaded!
+[Wed, 27 Jan 16 23:02:02 +0100][INFO] Rcon loaded
+[Wed, 27 Jan 16 23:02:02 +0100][DEBUG] Trying to Authenticate to SourceServer
+[Wed, 27 Jan 16 23:02:02 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 23:02:02 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 23:02:02 +0100][INFO] Create Happening for playerActionHap
+[Wed, 27 Jan 16 23:02:02 +0100][INFO] Create Happening for attackHap
+[Wed, 27 Jan 16 23:02:02 +0100][INFO] Create Happening for killHap
+[Wed, 27 Jan 16 23:02:02 +0100][INFO] Create Happening for assistHap
+[Wed, 27 Jan 16 23:02:02 +0100][INFO] Create Happening for suicideHap
+[Wed, 27 Jan 16 23:02:02 +0100][INFO] Create Happening for worldHap
+[Wed, 27 Jan 16 23:02:02 +0100][INFO] Create Happening for playerJoinHap
+[Wed, 27 Jan 16 23:02:02 +0100][INFO] Create Happening for playerEnterHap
+[Wed, 27 Jan 16 23:02:02 +0100][INFO] Create Happening for nadesHap
+[Wed, 27 Jan 16 23:02:19 +0100][INFO] gameWatcher going Live
+[Wed, 27 Jan 16 23:02:19 +0100][INFO] Create new Game for ### myteam vs yourteam ###
+[Wed, 27 Jan 16 23:04:06 +0100][INFO] Application Loaded!
+[Wed, 27 Jan 16 23:04:06 +0100][INFO] Rcon loaded
+[Wed, 27 Jan 16 23:04:06 +0100][DEBUG] Trying to Authenticate to SourceServer
+[Wed, 27 Jan 16 23:04:06 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 23:04:06 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 23:04:06 +0100][INFO] Create Happening for playerActionHap
+[Wed, 27 Jan 16 23:04:06 +0100][INFO] Create Happening for attackHap
+[Wed, 27 Jan 16 23:04:06 +0100][INFO] Create Happening for killHap
+[Wed, 27 Jan 16 23:04:06 +0100][INFO] Create Happening for assistHap
+[Wed, 27 Jan 16 23:04:06 +0100][INFO] Create Happening for suicideHap
+[Wed, 27 Jan 16 23:04:06 +0100][INFO] Create Happening for worldHap
+[Wed, 27 Jan 16 23:04:06 +0100][INFO] Create Happening for playerJoinHap
+[Wed, 27 Jan 16 23:04:06 +0100][INFO] Create Happening for playerEnterHap
+[Wed, 27 Jan 16 23:04:06 +0100][INFO] Create Happening for nadesHap
+[Wed, 27 Jan 16 23:04:09 +0100][INFO] gameWatcher going Live
+[Wed, 27 Jan 16 23:04:09 +0100][INFO] Create new Game for ### myteam vs yourteam ###
+[Wed, 27 Jan 16 23:05:27 +0100][INFO] Application Loaded!
+[Wed, 27 Jan 16 23:05:27 +0100][INFO] Rcon loaded
+[Wed, 27 Jan 16 23:05:27 +0100][DEBUG] Trying to Authenticate to SourceServer
+[Wed, 27 Jan 16 23:05:27 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 23:05:27 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 23:05:27 +0100][INFO] Create Happening for playerActionHap
+[Wed, 27 Jan 16 23:05:27 +0100][INFO] Create Happening for attackHap
+[Wed, 27 Jan 16 23:05:27 +0100][INFO] Create Happening for killHap
+[Wed, 27 Jan 16 23:05:27 +0100][INFO] Create Happening for assistHap
+[Wed, 27 Jan 16 23:05:27 +0100][INFO] Create Happening for suicideHap
+[Wed, 27 Jan 16 23:05:27 +0100][INFO] Create Happening for worldHap
+[Wed, 27 Jan 16 23:05:27 +0100][INFO] Create Happening for playerJoinHap
+[Wed, 27 Jan 16 23:05:27 +0100][INFO] Create Happening for playerEnterHap
+[Wed, 27 Jan 16 23:05:27 +0100][INFO] Create Happening for nadesHap
+[Wed, 27 Jan 16 23:05:44 +0100][INFO] gameWatcher going Live
+[Wed, 27 Jan 16 23:05:44 +0100][INFO] Create new Game for ### myteam vs yourteam ###
+[Wed, 27 Jan 16 23:06:54 +0100][INFO] Application Loaded!
+[Wed, 27 Jan 16 23:06:54 +0100][INFO] Rcon loaded
+[Wed, 27 Jan 16 23:06:54 +0100][DEBUG] Trying to Authenticate to SourceServer
+[Wed, 27 Jan 16 23:06:54 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 23:06:54 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 23:06:54 +0100][INFO] Create Happening for playerActionHap
+[Wed, 27 Jan 16 23:06:54 +0100][INFO] Create Happening for attackHap
+[Wed, 27 Jan 16 23:06:54 +0100][INFO] Create Happening for killHap
+[Wed, 27 Jan 16 23:06:54 +0100][INFO] Create Happening for assistHap
+[Wed, 27 Jan 16 23:06:54 +0100][INFO] Create Happening for suicideHap
+[Wed, 27 Jan 16 23:06:54 +0100][INFO] Create Happening for worldHap
+[Wed, 27 Jan 16 23:06:54 +0100][INFO] Create Happening for playerJoinHap
+[Wed, 27 Jan 16 23:06:54 +0100][INFO] Create Happening for playerEnterHap
+[Wed, 27 Jan 16 23:06:54 +0100][INFO] Create Happening for nadesHap
+[Wed, 27 Jan 16 23:07:11 +0100][INFO] gameWatcher going Live
+[Wed, 27 Jan 16 23:07:11 +0100][INFO] Create new Game for ### myteam vs yourteam ###
+[Wed, 27 Jan 16 23:08:03 +0100][INFO] Application Loaded!
+[Wed, 27 Jan 16 23:08:03 +0100][INFO] Rcon loaded
+[Wed, 27 Jan 16 23:08:03 +0100][DEBUG] Trying to Authenticate to SourceServer
+[Wed, 27 Jan 16 23:08:03 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 23:08:03 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 23:08:03 +0100][INFO] Create Happening for playerActionHap
+[Wed, 27 Jan 16 23:08:03 +0100][INFO] Create Happening for attackHap
+[Wed, 27 Jan 16 23:08:03 +0100][INFO] Create Happening for killHap
+[Wed, 27 Jan 16 23:08:03 +0100][INFO] Create Happening for assistHap
+[Wed, 27 Jan 16 23:08:03 +0100][INFO] Create Happening for suicideHap
+[Wed, 27 Jan 16 23:08:03 +0100][INFO] Create Happening for worldHap
+[Wed, 27 Jan 16 23:08:03 +0100][INFO] Create Happening for playerJoinHap
+[Wed, 27 Jan 16 23:08:03 +0100][INFO] Create Happening for playerEnterHap
+[Wed, 27 Jan 16 23:08:03 +0100][INFO] Create Happening for nadesHap
+[Wed, 27 Jan 16 23:08:19 +0100][INFO] gameWatcher going Live
+[Wed, 27 Jan 16 23:08:19 +0100][INFO] Create new Game for ### myteam vs yourteam ###
+[Wed, 27 Jan 16 23:08:19 +0100][INFO] Start game warden for: 
+[Wed, 27 Jan 16 23:33:38 +0100][INFO] Application Loaded!
+[Wed, 27 Jan 16 23:33:38 +0100][INFO] Rcon loaded
+[Wed, 27 Jan 16 23:33:38 +0100][DEBUG] Trying to Authenticate to SourceServer
+[Wed, 27 Jan 16 23:33:38 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 23:33:38 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 23:33:38 +0100][INFO] Create Happening for playerActionHap
+[Wed, 27 Jan 16 23:33:38 +0100][INFO] Create Happening for attackHap
+[Wed, 27 Jan 16 23:33:38 +0100][INFO] Create Happening for killHap
+[Wed, 27 Jan 16 23:33:38 +0100][INFO] Create Happening for assistHap
+[Wed, 27 Jan 16 23:33:38 +0100][INFO] Create Happening for suicideHap
+[Wed, 27 Jan 16 23:33:38 +0100][INFO] Create Happening for worldHap
+[Wed, 27 Jan 16 23:33:38 +0100][INFO] Create Happening for playerJoinHap
+[Wed, 27 Jan 16 23:33:38 +0100][INFO] Create Happening for playerEnterHap
+[Wed, 27 Jan 16 23:33:38 +0100][INFO] Create Happening for nadesHap
+[Wed, 27 Jan 16 23:33:54 +0100][INFO] gameWatcher going Live
+[Wed, 27 Jan 16 23:33:54 +0100][INFO] Create new Game for ### myteam vs yourteam ###
+[Wed, 27 Jan 16 23:35:00 +0100][INFO] Application Loaded!
+[Wed, 27 Jan 16 23:35:00 +0100][INFO] Rcon loaded
+[Wed, 27 Jan 16 23:35:00 +0100][DEBUG] Trying to Authenticate to SourceServer
+[Wed, 27 Jan 16 23:35:00 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 23:35:00 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 23:35:00 +0100][INFO] Create Happening for playerActionHap
+[Wed, 27 Jan 16 23:35:00 +0100][INFO] Create Happening for attackHap
+[Wed, 27 Jan 16 23:35:00 +0100][INFO] Create Happening for killHap
+[Wed, 27 Jan 16 23:35:00 +0100][INFO] Create Happening for assistHap
+[Wed, 27 Jan 16 23:35:00 +0100][INFO] Create Happening for suicideHap
+[Wed, 27 Jan 16 23:35:00 +0100][INFO] Create Happening for worldHap
+[Wed, 27 Jan 16 23:35:00 +0100][INFO] Create Happening for playerJoinHap
+[Wed, 27 Jan 16 23:35:00 +0100][INFO] Create Happening for playerEnterHap
+[Wed, 27 Jan 16 23:35:00 +0100][INFO] Create Happening for nadesHap
+[Wed, 27 Jan 16 23:35:17 +0100][INFO] gameWatcher going Live
+[Wed, 27 Jan 16 23:35:17 +0100][INFO] Create new Game for ### myteam vs yourteam ###
+[Wed, 27 Jan 16 23:35:17 +0100][INFO] Start game warden for: 185.13.36.73:27015
+[Wed, 27 Jan 16 23:37:54 +0100][INFO] Application Loaded!
+[Wed, 27 Jan 16 23:37:54 +0100][INFO] Rcon loaded
+[Wed, 27 Jan 16 23:37:54 +0100][DEBUG] Trying to Authenticate to SourceServer
+[Wed, 27 Jan 16 23:37:54 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 23:37:54 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 23:37:54 +0100][INFO] Create Happening for playerActionHap
+[Wed, 27 Jan 16 23:37:54 +0100][INFO] Create Happening for attackHap
+[Wed, 27 Jan 16 23:37:54 +0100][INFO] Create Happening for killHap
+[Wed, 27 Jan 16 23:37:54 +0100][INFO] Create Happening for assistHap
+[Wed, 27 Jan 16 23:37:54 +0100][INFO] Create Happening for suicideHap
+[Wed, 27 Jan 16 23:37:54 +0100][INFO] Create Happening for worldHap
+[Wed, 27 Jan 16 23:37:54 +0100][INFO] Create Happening for playerJoinHap
+[Wed, 27 Jan 16 23:37:54 +0100][INFO] Create Happening for playerEnterHap
+[Wed, 27 Jan 16 23:37:54 +0100][INFO] Create Happening for nadesHap
+[Wed, 27 Jan 16 23:38:11 +0100][INFO] gameWatcher going Live
+[Wed, 27 Jan 16 23:38:11 +0100][INFO] Create new Game for ### myteam vs yourteam ###
+[Wed, 27 Jan 16 23:38:11 +0100][INFO] Start game warden for: 185.13.36.73:27015 id 1 rconPSW: Pract!se
+[Wed, 27 Jan 16 23:53:58 +0100][INFO] Application Loaded!
+[Wed, 27 Jan 16 23:53:58 +0100][INFO] Rcon loaded
+[Wed, 27 Jan 16 23:53:58 +0100][DEBUG] Trying to Authenticate to SourceServer
+[Wed, 27 Jan 16 23:53:58 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 23:53:58 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Wed, 27 Jan 16 23:53:58 +0100][INFO] Create Happening for playerActionHap
+[Wed, 27 Jan 16 23:53:58 +0100][INFO] Create Happening for attackHap
+[Wed, 27 Jan 16 23:53:58 +0100][INFO] Create Happening for killHap
+[Wed, 27 Jan 16 23:53:58 +0100][INFO] Create Happening for assistHap
+[Wed, 27 Jan 16 23:53:58 +0100][INFO] Create Happening for suicideHap
+[Wed, 27 Jan 16 23:53:58 +0100][INFO] Create Happening for worldHap
+[Wed, 27 Jan 16 23:53:58 +0100][INFO] Create Happening for playerJoinHap
+[Wed, 27 Jan 16 23:53:58 +0100][INFO] Create Happening for playerEnterHap
+[Wed, 27 Jan 16 23:53:58 +0100][INFO] Create Happening for nadesHap
+[Wed, 27 Jan 16 23:54:15 +0100][INFO] gameWatcher going Live
+[Wed, 27 Jan 16 23:54:15 +0100][INFO] Create new Game for ### myteam vs yourteam ###
+[Wed, 27 Jan 16 23:54:15 +0100][INFO] Start game warden for game Server: 192.168.110.25:27015 warden id: 1.
+[Thu, 28 Jan 16 00:14:57 +0100][INFO] Application Loaded!
+[Thu, 28 Jan 16 00:15:05 +0100][INFO] gameWatcher going Live
+[Thu, 28 Jan 16 00:18:25 +0100][INFO] Application Loaded!
+[Thu, 28 Jan 16 00:18:28 +0100][INFO] gameWatcher going Live
+[Thu, 28 Jan 16 00:18:29 +0100][INFO] Create new Game for ### myteam vs yourteam ###
+[Thu, 28 Jan 16 00:18:29 +0100][INFO] Rcon loaded
+[Thu, 28 Jan 16 00:18:29 +0100][INFO] Start game warden for game Server: 192.168.110.25:27015 warden id: 1.
+[Thu, 28 Jan 16 00:18:29 +0100][DEBUG] Trying to Authenticate to SourceServer
+[Thu, 28 Jan 16 00:18:29 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Thu, 28 Jan 16 00:18:29 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Thu, 28 Jan 16 00:20:20 +0100][INFO] Application Loaded!
+[Thu, 28 Jan 16 00:20:24 +0100][INFO] gameWatcher going Live
+[Thu, 28 Jan 16 00:20:24 +0100][INFO] Create new Game for ### myteam vs yourteam ###
+[Thu, 28 Jan 16 00:20:24 +0100][INFO] Rcon loaded
+[Thu, 28 Jan 16 00:20:24 +0100][INFO] Start game warden for game Server: 192.168.110.25:27015 warden id: 1.
+[Thu, 28 Jan 16 00:20:24 +0100][DEBUG] Trying to Authenticate to SourceServer
+[Thu, 28 Jan 16 00:20:24 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Thu, 28 Jan 16 00:20:24 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Thu, 28 Jan 16 00:22:13 +0100][INFO] Application Loaded!
+[Thu, 28 Jan 16 00:22:16 +0100][INFO] gameWatcher going Live
+[Thu, 28 Jan 16 00:22:16 +0100][INFO] Create new Game for ### myteam vs yourteam ###
+[Thu, 28 Jan 16 00:22:16 +0100][INFO] Rcon loaded
+[Thu, 28 Jan 16 00:22:16 +0100][INFO] Start game warden for game Server: 192.168.110.25:27015 warden id: 1.
+[Thu, 28 Jan 16 00:22:16 +0100][DEBUG] Trying to Authenticate to SourceServer
+[Thu, 28 Jan 16 00:22:16 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Thu, 28 Jan 16 00:22:16 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Thu, 28 Jan 16 00:23:42 +0100][INFO] Application Loaded!
+[Thu, 28 Jan 16 00:23:46 +0100][INFO] gameWatcher going Live
+[Thu, 28 Jan 16 00:23:46 +0100][INFO] Create new Game for ### myteam vs yourteam ###
+[Thu, 28 Jan 16 00:23:46 +0100][INFO] Rcon loaded
+[Thu, 28 Jan 16 00:23:46 +0100][INFO] Start game warden for game Server: 192.168.110.25:27015 warden id: 1.
+[Thu, 28 Jan 16 00:23:46 +0100][DEBUG] Trying to Authenticate to SourceServer
+[Thu, 28 Jan 16 00:23:46 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Thu, 28 Jan 16 00:23:46 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Thu, 28 Jan 16 00:23:46 +0100][INFO] Create Happening for playerActionHap
+[Thu, 28 Jan 16 00:23:46 +0100][INFO] Create Happening for attackHap
+[Thu, 28 Jan 16 00:23:46 +0100][INFO] Create Happening for killHap
+[Thu, 28 Jan 16 00:23:46 +0100][INFO] Create Happening for assistHap
+[Thu, 28 Jan 16 00:23:46 +0100][INFO] Create Happening for suicideHap
+[Thu, 28 Jan 16 00:23:46 +0100][INFO] Create Happening for worldHap
+[Thu, 28 Jan 16 00:23:46 +0100][INFO] Create Happening for playerJoinHap
+[Thu, 28 Jan 16 00:23:46 +0100][INFO] Create Happening for playerEnterHap
+[Thu, 28 Jan 16 00:23:46 +0100][INFO] Create Happening for nadesHap
+[Thu, 28 Jan 16 00:25:53 +0100][INFO] Application Loaded!
+[Thu, 28 Jan 16 00:25:55 +0100][INFO] gameWatcher going Live
+[Thu, 28 Jan 16 00:25:55 +0100][INFO] Create new Game for ### myteam vs yourteam ###
+[Thu, 28 Jan 16 00:25:55 +0100][INFO] Rcon loaded
+[Thu, 28 Jan 16 00:25:55 +0100][INFO] Start game warden for game Server: 192.168.110.25:27015 warden id: 1.
+[Thu, 28 Jan 16 00:25:55 +0100][DEBUG] Trying to Authenticate to SourceServer
+[Thu, 28 Jan 16 00:25:55 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Thu, 28 Jan 16 00:25:55 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Thu, 28 Jan 16 00:25:56 +0100][INFO] Create Happening for playerActionHap
+[Thu, 28 Jan 16 00:25:56 +0100][INFO] Create Happening for attackHap
+[Thu, 28 Jan 16 00:25:56 +0100][INFO] Create Happening for killHap
+[Thu, 28 Jan 16 00:25:56 +0100][INFO] Create Happening for assistHap
+[Thu, 28 Jan 16 00:25:56 +0100][INFO] Create Happening for suicideHap
+[Thu, 28 Jan 16 00:25:56 +0100][INFO] Create Happening for worldHap
+[Thu, 28 Jan 16 00:25:56 +0100][INFO] Create Happening for playerJoinHap
+[Thu, 28 Jan 16 00:25:56 +0100][INFO] Create Happening for playerEnterHap
+[Thu, 28 Jan 16 00:25:56 +0100][INFO] Create Happening for nadesHap
+[Thu, 28 Jan 16 00:28:37 +0100][INFO] Application Loaded!
+[Thu, 28 Jan 16 00:28:40 +0100][INFO] gameWatcher going Live
+[Thu, 28 Jan 16 00:28:40 +0100][INFO] Create new Game for ### myteam vs yourteam ###
+[Thu, 28 Jan 16 00:28:40 +0100][INFO] Rcon loaded
+[Thu, 28 Jan 16 00:28:40 +0100][INFO] Start game warden for game Server: 192.168.110.25:27015 warden id: 1.
+[Thu, 28 Jan 16 00:28:40 +0100][DEBUG] Trying to Authenticate to SourceServer
+[Thu, 28 Jan 16 00:28:40 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Thu, 28 Jan 16 00:28:40 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Thu, 28 Jan 16 00:28:40 +0100][INFO] Create Happening for playerActionHap
+[Thu, 28 Jan 16 00:28:40 +0100][INFO] Create Happening for attackHap
+[Thu, 28 Jan 16 00:28:40 +0100][INFO] Create Happening for killHap
+[Thu, 28 Jan 16 00:28:40 +0100][INFO] Create Happening for assistHap
+[Thu, 28 Jan 16 00:28:40 +0100][INFO] Create Happening for suicideHap
+[Thu, 28 Jan 16 00:28:40 +0100][INFO] Create Happening for worldHap
+[Thu, 28 Jan 16 00:28:40 +0100][INFO] Create Happening for playerJoinHap
+[Thu, 28 Jan 16 00:28:40 +0100][INFO] Create Happening for playerEnterHap
+[Thu, 28 Jan 16 00:28:40 +0100][INFO] Create Happening for nadesHap
+[Thu, 28 Jan 16 01:06:51 +0100][INFO] Application Loaded!
+[Thu, 28 Jan 16 01:07:12 +0100][INFO] gameWatcher going Live
+[Thu, 28 Jan 16 01:07:12 +0100][INFO] Create new Game for ### myteam vs yourteam ###
+[Thu, 28 Jan 16 01:07:12 +0100][INFO] Rcon loaded
+[Thu, 28 Jan 16 01:07:12 +0100][INFO] Start game warden for game Server: 192.168.110.25:27015 warden id: 1.
+[Thu, 28 Jan 16 01:07:12 +0100][DEBUG] Trying to Authenticate to SourceServer
+[Thu, 28 Jan 16 01:07:12 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Thu, 28 Jan 16 01:07:12 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Thu, 28 Jan 16 01:07:12 +0100][INFO] Create Happening for playerActionHap
+[Thu, 28 Jan 16 01:07:12 +0100][INFO] Create Happening for attackHap
+[Thu, 28 Jan 16 01:07:12 +0100][INFO] Create Happening for killHap
+[Thu, 28 Jan 16 01:07:12 +0100][INFO] Create Happening for assistHap
+[Thu, 28 Jan 16 01:07:12 +0100][INFO] Create Happening for suicideHap
+[Thu, 28 Jan 16 01:07:12 +0100][INFO] Create Happening for worldHap
+[Thu, 28 Jan 16 01:07:12 +0100][INFO] Create Happening for playerJoinHap
+[Thu, 28 Jan 16 01:07:12 +0100][INFO] Create Happening for playerEnterHap
+[Thu, 28 Jan 16 01:07:12 +0100][INFO] Create Happening for nadesHap
+[Thu, 28 Jan 16 01:32:15 +0100][INFO] Application Loaded!
+[Thu, 28 Jan 16 01:32:20 +0100][INFO] gameWatcher going Live
+[Thu, 28 Jan 16 01:32:20 +0100][INFO] Create new Game for ### myteam vs yourteam ###
+[Thu, 28 Jan 16 01:32:20 +0100][INFO] Rcon loaded
+[Thu, 28 Jan 16 01:32:20 +0100][INFO] Start game warden for game Server: 192.168.110.25:27015 warden id: 1.
+[Thu, 28 Jan 16 01:32:20 +0100][DEBUG] Trying to Authenticate to SourceServer
+[Thu, 28 Jan 16 01:32:20 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Thu, 28 Jan 16 01:32:20 +0100][DEBUG] 192.168.110.25:27015@qwerty1234!
+[Thu, 28 Jan 16 01:32:20 +0100][INFO] Create Happening for playerActionHap
+[Thu, 28 Jan 16 01:32:20 +0100][INFO] Create Happening for attackHap
+[Thu, 28 Jan 16 01:32:20 +0100][INFO] Create Happening for killHap
+[Thu, 28 Jan 16 01:32:20 +0100][INFO] Create Happening for assistHap
+[Thu, 28 Jan 16 01:32:20 +0100][INFO] Create Happening for suicideHap
+[Thu, 28 Jan 16 01:32:20 +0100][INFO] Create Happening for worldHap
+[Thu, 28 Jan 16 01:32:20 +0100][INFO] Create Happening for playerJoinHap
+[Thu, 28 Jan 16 01:32:20 +0100][INFO] Create Happening for playerEnterHap
+[Thu, 28 Jan 16 01:32:20 +0100][INFO] Create Happening for nadesHap

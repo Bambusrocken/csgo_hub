@@ -17,6 +17,7 @@ use Application\Overwatch\hapWatcher;
 use Application\Game\score;
 use Application\Game\player;
 use Application\Game\map;
+use Application\Overwatch\warden;
 
 $di->setshared('config', function () use ($config) {
     return $config;

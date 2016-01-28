@@ -30,29 +30,6 @@ abstract class hapProvider extends Injectable{
     protected $hapInfo;
     protected $di;
     protected $hapEvent;
-    //protected $h_Option;
-    
-    /*protected $a_user_id;       //Attacker UserID
-    protected $a_user_name;     //Attacker Username
-    protected $a_user_team;     //Atacker Team
-    protected $a_user_steamid;   //Attacker SteamID
-    protected $a_pos_x;       //Attacker Position on map X-Coordinate
-    protected $a_pos_x;       //Attacker Position on map Y-Coordinate
-    protected $a_pos_x;       //Attacker Position on map z-Coordinate
-    protected $v_user_id;     //Victim UserID, user that recives the action  
-    protected $v_user_name;   //Victim UserName, user that recives the action
-    protected $v_user_team;   //Victim User team, user that recives the action
-    protected $v_user_steamid;//Victim User steamId, user that recives the action
-    protected $v_pos_x;        //Victim Position on map X-Coordinate
-    protected $v_pos_y;        //Victim Position on map Y-Coordinate
-    protected $v_pos_z;        //Victim Position on map Z-Coordinate
-    protected $weapon;             //Weapon used for the Hap
-    protected $headshot;           //Was action a headshot?
-    protected $team;               //What team is this?
-    protected $team_win;           //Did that team win or lose?
-    protected $type;               //How did they win or lose?
-    protected $score;              //Score for team (or player?)
-    protected $players;            //Team Members*/
     
     public function __construct() {    
         $this->di=$this->getDI();
@@ -61,9 +38,25 @@ abstract class hapProvider extends Injectable{
         $this->di['logger']->info("Create Happening for ". get_called_class());
     }
     
+    /** 
+     * Comapring the message with the registered regex to get the Happening,
+     * and return it as an Array
+     * 
+     * Since there is only (currently) two Haps generating the array key 
+     * 'event_name' from the regex Capture groups. We add the 
+     * called_class as 'event_name'. This is used for declassification 
+     * in the warden     
+     *    
+     * @param type $hapInfo_Raw
+     * @return boolean
+     */
     public function compare($hapInfo_Raw) {
         if (preg_match($this->regex,$hapInfo_Raw,$found)){
             $this->hapInfo = $found;
+            
+            if (!array_key_exists('event_name', $this->hapInfo)) {
+                $this->hapInfo['event_name']=get_called_class();
+            }
             return TRUE;
         }
         return FALSE;

@@ -29,10 +29,16 @@ class hapWatcher extends Injectable
     public function __construct() {
         $this->di=$this->getDI();
         echo 'hapWatcher going Live' . PHP_EOL;
-        //echo array_keys(get_object_vars($this->di['regex']->haps));
-        $this->hapEvents =  array_keys(get_object_vars($this->di['regex']->haps));
+        
+        $this->hapEvents =  array_keys(get_object_vars($this->di['regex']->haps));      //Get All the avaliable Registred Haps from the config (config/regex.php)
     }
     
+    /**
+     * Decode the Source Hap using all avaliable haps and return The Hap as an Array (see corresopnding Hap class at Application/Haps/
+     * 
+     * @param type $message
+     * @return array 
+     */
     public function decodeGameHap($message) {
         foreach ($this->hapEvents as $hap ) {
             //echo $hap . PHP_EOL;

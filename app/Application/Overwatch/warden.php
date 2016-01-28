@@ -22,27 +22,46 @@
  *
  * @author andrek
  */
+namespace Application\Overwatch;
 
 class warden extends \Phalcon\Di\Injectable
 {
     
-    private $di;                //Dependecy Ínjector Container     
-    //Classes from constructor for logical game data.
+    private $di;                //Dependecy Ínjector Container  
+    //   
+    /* Classes from constructor for logical game data.
+     *
+     */
     private $hapWatcher;        //Happening Message service
     private $rcon;              //Rcon class
     
-    private $match_id;          //Map Details
-    private $server_ip;         //Actual IP of the game beeing handled
-    private $rcon_password;     //Rcon Password for $server_ip
+    private $warden_id;         //Unique ID for THIS warden
+    private $game_ip;           //Actual IP and port of the game beeing handled
+    private $rcon_password;     //Rcon Password for $game_ip
+    
+    private $ip;
             
-    function __construct($hapWatcher,$rcon,$match_id,$server_ip,$rcon_password) {
-        $this->di=getDI();
+    function __construct($hapWatcher,$rcon,$warden_id,$game_ip,$rcon_password) {
+        $this->di=$this->getDI();
         
-        $di['logger']->info('Start game warden for: ' . $server_ip);
+        $this->di['logger']->info('Start game warden for game Server: ' . $game_ip . " warden id: " . $warden_id . ".");
         
-        $this->hapWatcher=$hapWatcher;
-        $this->rcon=$rcon;
-        $this->match_id=$match_id;
-        $this->rcon_password=$rcon_password;
+        $this->hapWatcher = $hapWatcher;
+        $this->rcon = $rcon;
+        $this->game_ip = $game_ip;
+        $this->warden_id = $warden_id;
+        $this->rcon_password = $rcon_password;
+        
+        $this->ip =  explode(":", $this->game_ip);
+        
+        $this->rcon->authenticate($this->ip[0],$this->ip[1],$this->rcon_password);
+        $this->rcon->send('mp_restartgame 1');
+    }
+    
+    public function manageHaps($happening) {
+        
+        $hapEvent =$this->hapWatcher->decodeGameHap($happening);
+        echo var_dump($hapEvent);
+        
     }
 }

@@ -3,6 +3,11 @@
 return new \Phalcon\Config(array(
 
     'version' => '0.1',
+    
+    /**
+     * Set the Game on Hold for XXX Seconds (90 Default)
+     */
+    'GAME_HOLD_DELAY' =>  90,
 
     /**
      * if true, then we print a new line at the end of each execution
