@@ -24,13 +24,13 @@ return new \Phalcon\Config(array(
     
     'datasocket' => array(
             'type' => 'udp',
-            'host' => '192.168.101.214',
+            'host' => '192.168.1.95',
             'port' => '21001'
     ),
     
     'db' => array(
         'adapter'     => 'Mysql',
-        'host'        => '192.168.101.214',
+        'host'        => '192.168.1.95',
         'username'    => 'ebotv3',
         'password'    => 'ebotv3',
         'dbname'      => 'ebotv3',

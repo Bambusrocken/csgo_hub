@@ -52,7 +52,6 @@ class Application extends ApplicationBase
         $timeCursor = microtime(true);
         
         while(true) {
-            
             $logdata=$this->di['udpsocket']->recvFrom();
             $data=$logdata[0];
             $ip=$logdata[1];

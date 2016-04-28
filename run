@@ -6,7 +6,7 @@
     
     $prereq["php"] = (function_exists('version_compare') && version_compare(phpversion(), '5.3.1', '>='));
     $prereq["php5.4"] = (function_exists('version_compare') && version_compare(phpversion(), '5.4', '>='));
-    $prereq["mysql"] = extension_loaded('mysql');
+    $prereq["mysql"] = extension_loaded('mysqli');
     $prereq["spl"] = extension_loaded('spl');
     $prereq["phalcon"] = extension_loaded('phalcon');
     $prereq["sockets"] = extension_loaded("sockets");
